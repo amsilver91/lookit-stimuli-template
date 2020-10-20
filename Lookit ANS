@@ -184,6 +184,111 @@
             "autoProceed": false,
             "endSessionRecording": true
         },
+        "intro-video": {
+            "kind": "exp-lookit-instruction-video",
+            "instructionsVideo": [
+                {
+                    "src": "https://raw.githubusercontent.com/sguequierre/lookit-stimuli-template/master/mp4/LookitInstructionsBlickets.mp4",
+                    "type": "video/mp4"
+                }
+            ],
+            "introText": "Welcome to the study! Please watch this video to get started. \n(Or you can read the summary to the right if you prefer.)",
+            "transcriptTitle": "Video summary",
+            "transcriptBlocks": [
+                {
+                    "title": "Information about the study",
+                    "listblocks": [
+                        {
+                            "text": "Your baby does not need to be with you at this point in the study. We will let you know when it is time to get your baby."
+                        },
+                        {
+                            "text": "With this study, we are looking at how babies learn about causes and effects, and specifically, whether babies recognize when they have enough information to conclude that one event caused another."
+                        },
+                        {
+                            "text": "To investigate this, your baby will be shown videos of a girl placing objects on a machine, and then sorting the objects into boxes. The videos aim to teach the babies which objects make the machine light up and play music (or not), and which of the boxes the objects belong to. In some of the trials, we want look at whether babies predict which box the new objects will be placed into. Those trials will start with an animation displayed in the crucial parts of the screen, so that we can then more easily tell where your baby was looking during the videos."
+                        },
+                        {
+                            "text": "For an example of a video your baby would see, please watch the video on the left."
+                        }
+                    ]
+                },
+                {
+                    "title": "What's next?",
+                    "listblocks": [
+                        {
+                            "text": "Because this is an online study, we will check to make sure that your webcam and microphone are set up and working properly on the next page, so we can record your baby’s looking behavior during the study."
+                        },
+                        {
+                            "text": "Following that page, you will be given an opportunity to review the consent information and we will ask that you record a short video of yourself giving consent to participate in this study."
+                        },
+                        {
+                            "text": "After you are finished with the consent page and questions, you will be provided with more detailed information about what to do during the study and how to get started."
+                        }
+                    ]
+                }
+            ],
+            "warningText": "Please watch the video or read the transcript before proceeding.",
+            "nextButtonText": "Proceed to Set-up",
+            "title": "Study overview",
+            "showPreviousButton": false
+        },
+        "instructions-video": {
+            "kind": "exp-lookit-instruction-video",
+            "instructionsVideo": [
+                {
+                    "src": "https://raw.githubusercontent.com/sguequierre/lookit-stimuli-template/master/mp4/LookitInstructionsSetUpLow.mp4",
+                    "type": "video/mp4"
+                }
+            ],
+            "introText": "Thank you for setting up your camera and for consenting to participate in the study! \n Please watch this video for study instructions - or read the summary to the right if you prefer.",
+            "transcriptTitle": "Video summary",
+            "transcriptBlocks": [
+                {
+                    "title": "Procedure and tips for participating",
+                    "listblocks": [
+                        {
+                            "text": "Your baby does not need to be with you at this point in the study. We will let you know when it is time to get your baby."
+                        },
+                        {
+                            "text": "For visual tips on how to hold your child and ensure a good recording, please watch the video on the left."
+                        },
+                        {
+                            "text": "Your baby will see 16 videos, the same or similar to what you have seen in the preview. The whole presentation will last about 6 minutes."
+                        },
+                        {
+                            "text": "Before you start the study, please close all other tabs or windows of your browser to minimise any disruptions and ensure a good connection."
+                        },
+                        {
+                            "text": "During the study, please make sure your baby’s eyes are well visible. In generally helps if there is enough light in the room, and if the light source is in front of you and not coming from behind you."
+                        },
+                        {
+                            "text": "We will ask you to hold your child sitting in your lap so that both of your faces are visible. We are interested in seeing where the babies look, so we will ask you not to direct your baby’s attention and please close your eyes or look at your baby’s head during the videos. The reason we ask this is that your baby is learning from you all the time. Even if they can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention."
+                        },
+                        {
+                            "text": "Don’t worry if your baby doesn’t look at the screen all the time. We expect them to look away and we only ask you to try to prevent them from moving around too much."
+                        },
+                        {
+                            "text": "If you need to pause the study, you can press the space bar at any point. When you are ready to continue, you just press the space bar again, you will hear a sound, and the study will resume. Please try to keep any breaks short and no longer than a few minutes."
+                        },
+                        {
+                            "text": "If you wish to exit the study all together, you are free to do so at any point by pressing the Escape button and closing the tab. You will be prompted to confirm that you want to leave the page."
+                        }
+                    ]
+                },
+                {
+                    "title": "What's next?",
+                    "listblocks": [
+                        {
+                            "text": "If you are ready, you can now get your baby and start the study. Thank you so much for taking part and I hope your baby likes the videos!"
+                        }
+                    ]
+                }
+            ],
+            "warningText": "Please watch the video or read the transcript before proceeding.",
+            "nextButtonText": "My baby and I are ready. \n Start the study!",
+            "title": "Study instructions",
+            "showPreviousButton": false
+        },
         "instructions-1": {
             "kind": "exp-lookit-instructions",
             "blocks": [
