@@ -1,0 +1,359 @@
+{
+    "frames": {
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, when babies hear series of sounds <a href='https://www.pnas.org/content/pnas/114/45/11896.full.pdf' rel='noreferrer noopener external nofollow' target='_blank'>here</a>.) This study tries to see if even younger babies also have this ability. There is no right or wrong in your baby’s response! We just want to see, in general, what babies think and how they learn at different ages. \n\n The ability to connect emotional vocalizations to their probable causes is fundamental to human relationships, allowing us to empathize with, react to, and predict other people's experiences of the world. Most previous work on early emotion understanding has focused on children’s understanding of a few basic emotions or on broad distinctions between positive and negative emotions. In this study, we are looking at more fine-grained distinctions between specific positive emotions. \n\n This research wouldn’t be possible without awesome parents like you. To thank you for your participation, we’ll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don’t hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you’ll receive one gift card per child. Thank you again for your participation!",
+                "title": "What was this study about?"
+            }
+        },
+        "test-trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "sources": "VIDEO1",
+                    "altSources": "ALTVIDEO1",
+                    "audioSources": "AUDIO01",
+                    "calibrationLength": 2000
+                },
+                {
+                    "sources": "VIDEO2",
+                    "altSources": "ALTVIDEO2",
+                    "audioSources": "AUDIO02"
+                },
+                {
+                    "sources": "VIDEO3",
+                    "altSources": "ALTVIDEO3",
+                    "audioSources": "AUDIO03"
+                },
+                {
+                    "sources": "VIDEO4",
+                    "altSources": "ALTVIDEO4",
+                    "audioSources": "AUDIO04"
+                },
+                {
+                    "sources": [],
+                    "altSources": [],
+                    "doRecording": false,
+                    "audioSources": "all_done_HO",
+                    "calibrationLength": 0
+                }
+            ],
+            "parameterSets": [
+                {
+                    "VIDEO1": "4 v 12",
+                    "VIDEO2": "12 v 4",
+                    "VIDEO3": "10 v 5",
+                    "VIDEO4": "5 v 10",
+                    "ALTVIDEO1": "12 v 4",
+                    "ALTVIDEO2": "4 v 12",
+                    "ALTVIDEO3": "5 v 10",
+                    "ALTVIDEO4": "10 v 5",
+                    "AUDIO01": "4",
+                    "AUDIO02": "4",
+                    "AUDIO03": "5",
+                    "AUDIO04": "5"
+                },
+                {
+                    "VIDEO1": "12 v 4",
+                    "VIDEO2": "4 v 12",
+                    "VIDEO3": "5 v 10",
+                    "VIDEO4": "10 v 5",
+                    "ALTVIDEO1": "4 v 12",
+                    "ALTVIDEO2": "12 v 4",
+                    "ALTVIDEO3": "10 v 5",
+                    "ALTVIDEO4": "5 v 10",
+                    "AUDIO01": "4",
+                    "AUDIO02": "4",
+                    "AUDIO03": "5",
+                    "AUDIO04": "5"
+                },
+                {
+                    "VIDEO1": "4 v 12",
+                    "VIDEO2": "12 v 4",
+                    "VIDEO3": "10 v 5",
+                    "VIDEO4": "5 v 10",
+                    "ALTVIDEO1": "12 v 4",
+                    "ALTVIDEO2": "4 v 12",
+                    "ALTVIDEO3": "5 v 10",
+                    "ALTVIDEO4": "10 v 5",
+                    "AUDIO01": "12",
+                    "AUDIO02": "12",
+                    "AUDIO03": "10",
+                    "AUDIO04": "10"
+                },
+                {
+                    "VIDEO1": "12 v 4",
+                    "VIDEO2": "4 v 12",
+                    "VIDEO3": "5 v 10",
+                    "VIDEO4": "10 v 5",
+                    "ALTVIDEO1": "4 v 12",
+                    "ALTVIDEO2": "12 v 4",
+                    "ALTVIDEO3": "10 v 5",
+                    "ALTVIDEO4": "5 v 10",
+                    "AUDIO01": "12",
+                    "AUDIO02": "12",
+                    "AUDIO03": "10",
+                    "AUDIO04": "10"
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-composite-video-trial",
+                "isLast": false,
+                "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+                "testCount": 1,
+                "audioTypes": [
+                    "ogg",
+                    "mp3"
+                ],
+                "pauseAudio": "pause",
+                "videoTypes": [
+                    "mov",
+                    "mp4"
+                ],
+                "attnSources": "paw 21s m",
+                "announceLength": 40,
+                "introSources": "",
+                "musicSources": "",
+                "unpauseAudio": "return_after_pause",
+                "calibrationLength": 3000,
+                "calibrationAudioSources": "chimes",
+                "calibrationVideoSources": "attractor"
+            }
+        },
+        "test-trial-6": {
+            "kind": "exp-lookit-composite-video-trial",
+            "isLast": false,
+            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+            "sources": "4 v 12",
+            "testCount": 1,
+            "altSources": "12 v 4",
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "pauseAudio": "pause",
+            "videoTypes": [
+                "mov",
+                "mp4"
+            ],
+            "attnSources": "paw 21s m",
+            "audioSources": "4",
+            "announceLength": 40,
+            "introSources": "",
+            "musicSources": "",
+            "unpauseAudio": "return_after_pause",
+            "calibrationLength": 3000,
+            "calibrationAudioSources": "chimes",
+            "calibrationVideoSources": "attractor"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact us at child.research@psych.rutgers.edu and we'd be glad to help you out!"
+        },
+        "video-consent": {
+            "gdpr": false,
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Jenny Wang",
+            "datause": [],
+            "purpose": "This study is part of a larger research program aiming to understand how infants and children are able to learn so much about the different objects and people they encounter in the world around them. ",
+            "template": "consent_003",
+            "PIContact": "Jenny Wang - jinjing.jenny.wang@rutgers.edu",
+            "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world. Please note that you and your child are NOT being evaluated academically or psychologically, we are simply conducting basic research.",
+            "institution": "Rutgers University",
+            "payment": "There are no foreseeable risks to participation in this study. While participation in this research provides no direct benefit to you or your child, the results will help us learn about children’s cognitive development. Thank you for taking part!",
+            "additional_segments": [],
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Rutgers IRB Director at: Arts and Sciences IRB, 335 George St., Liberty Plaza Ste. 3200, New Brunswick, NJ 08901 (732) 235-2866 or the Rutgers Human Subjects Protection Program at (973) 972-1149, email us at humansubjects@ored.rutgers.edu or write us at 65 Bergen St., Suite 507, Newark, NJ 07107."
+        },
+        "end-experiment": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "Recording_End",
+            "images": [
+                {
+                    "src": "Recording_End.png",
+                    "width": 40,
+                    "position": "center"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/",
+            "pageColor": "gray",
+            "audioTypes": [
+                "mp3"
+            ],
+            "autoProceed": false,
+            "endSessionRecording": true
+        },
+        "instructions-1": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Welcome to our study!",
+                    "listblocks": [
+                        {
+                            "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
+                        },
+                        {
+                            "text": "Babies hear emotional expressions all the time! In this study, we would like to see if they can match some common vocal emotional expressions such as 'aww' and 'mmm' to a likely cause (such as a stuffed animal or baby food). Understanding the causes of people’s emotional reactions is an important skill in building human relationships."
+                        }
+                    ]
+                },
+                {
+                    "title": "Preview of what your baby will see",
+                    "listblocks": [
+                        {
+                            "text": "Your baby will see 6 pairs of pictures and hear an emotional vocalization that matches one of the pictures. We are interested in where they choose to look!"
+                        },
+                        {
+                            "text": "Below is a video of an example trial, if you would like to take a look now."
+                        }
+                    ],
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/mp4/Preview_fullTrial_small.mp4",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "mustPlay": false
+                    }
+                },
+                {
+                    "title": "Next steps",
+                    "listblocks": [
+                        {
+                            "text": "Because this is an online study, we will first check to make sure your webcam is properly set up to record your baby's looking behavior."
+                        },
+                        {
+                            "text": "Then, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
+                        },
+                        {
+                            "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
+                        }
+                    ]
+                }
+            ],
+            "showWebcam": false,
+            "nextButtonText": "I'm ready to set up my webcam!"
+        },
+        "instructions-2": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "text": "<strong>Please read this page carefully before you begin!</strong>"
+                },
+                {
+                    "image": {
+                        "src": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/img/Preview_1_overShoulder.jpg"
+                    },
+                    "title": "What to do during the experiment:",
+                    "listblocks": [
+                        {
+                            "text": "During the experiment, we'll ask that you hold your baby <strong>looking over your shoulder</strong> like this, so that you're facing away from the screen."
+                        },
+                        {
+                            "text": "The reason we ask this is that your baby is learning from you all the time. You may unconsciously shift towards one side or the other and influence your baby's attention. We want to make sure we're measuring your baby's preferences, not yours!"
+                        },
+                        {
+                            "text": "Don’t worry if your baby isn’t interested in the screen the entire time. Even if they only look a little bit, we are still collecting valuable data."
+                        },
+                        {
+                            "text": "Before the experiment begins, you'll have a few moments to turn around. When it is over, you'll hear an audio prompt letting you know you can turn back around. The experiment will last about <strong>6 minutes</strong>."
+                        }
+                    ]
+                },
+                {
+                    "title": "Make sure your speakers are loud enough:",
+                    "listblocks": [
+                        {
+                            "text": "We want to analyze where your baby looks after hearing a vocalization, so it's important that they can hear the sound."
+                        },
+                        {
+                            "text": "Please play this sample audio track to make sure your baby will be able to <strong>hear it clearly</strong>!"
+                        }
+                    ],
+                    "mediaBlock": {
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp3/Happy.mp3",
+                                "type": "audio/mp3"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                },
+                {
+                    "title": "If you need to end the experiment early:",
+                    "listblocks": [
+                        {
+                            "text": "If your baby gets too fussy or distracted to continue, you can end the experiment early by pressing <strong>CTRL + X</strong>. A box will appear on the screen. Select '<strong>Exit</strong>' to take you to the end of the study."
+                        },
+                        {
+                            "text": "Even if you end the experiment early, we can still use the data from when your baby was looking."
+                        }
+                    ]
+                },
+                {
+                    "title": "After the experiment is over:",
+                    "listblocks": [
+                        {
+                            "text": "Once the experiment is over, you'll be taken to a brief <strong>exit survey</strong> where you can report any technical issues or feedback."
+                        },
+                        {
+                            "text": "You will also select a <strong>privacy level</strong> for your videos."
+                        }
+                    ]
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "It's time to get your baby & check the webcam view!",
+                    "listblocks": [
+                        {
+                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
+                        },
+                        {
+                            "text": "The green button below will begin the study."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "My baby and I are in position & ready to start!\n(You'll have about 10 sec to turn around.)"
+        },
+        "start-experiment": {
+            "kind": "exp-lookit-video",
+            "audio": "Recording_Start",
+            "images": [
+                {
+                    "src": "Recording_Start.png",
+                    "top": 10,
+                    "left": 35,
+                    "width": 30
+                },
+                {
+                    "src": "Preview_1_overShoulder.jpg",
+                    "top": 40,
+                    "left": 35,
+                    "width": 30
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/",
+            "pageColor": "gray",
+            "audioTypes": [
+                "mp3"
+            ],
+            "autoProceed": true,
+            "maximizeDisplay": true,
+            "startSessionRecording": true
+        }
+    },
+    "sequence": [
+        "instructions-1",
+        "test-trial-6",
+        "exit-survey"
+    ]
+}
