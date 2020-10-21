@@ -415,25 +415,12 @@
                     "title": "Next steps",
                     "listblocks": [
                         {
-                            "text": "Because this is an online study, we will first check to make sure your webcam is properly set up to record your baby's looking behavior."
+                            "text": "First, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
                         },
                         {
-                            "text": "Then, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
-                        },
-                        {
-                            "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
+                            "text": "Next, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
                         }
-                    ],
-                    "mediaBlock": {
-                        "isVideo": true,
-                        "sources": [
-                            {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/instructionsvideo.mp4",
-                                "type": "video/mp4"
-                            }
-                        ],
-                        "mustPlay": false
-                    }
+                    ]
                 }
             ],
             "showWebcam": false,
@@ -443,11 +430,11 @@
             "kind": "exp-lookit-instructions",
             "blocks": [
                 {
-                    "text": "<strong>If you'd like to watch an instructions video to review how to set up for the study, please check the previous page.</strong>"
+                    "text": "<strong>Reminder: The video section will take about 5 minutes to complete. After that, you will be able to select a level of privacy for your data.</strong>"
                 },
                 {
                     "image": {
-                        "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/setup.jpg"
+                        "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/Setup.jpg"
                     },
                     "title": "What to do during the experiment:",
                     "listblocks": [
@@ -455,7 +442,7 @@
                             "text": "During the experiment, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend place the computer screen roughly at an adult's arm's length from your baby."
                         },
                         {
-                            "text": "Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study. Even if the baby can't see where you're looking, you may unconsciously shift towards one side or the other and influence your baby's attention."
+                            "text": "Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study."
                         },
                         {
                             "text": "Don’t worry if your baby isn’t interested in the screen the entire time. Even if they only look a little bit, we are still collecting valuable data."
