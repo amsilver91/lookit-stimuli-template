@@ -10,8 +10,7 @@
         "test-trials": {
             "kind": "choice",
             "sampler": "random-parameter-set",
-            "frameList": [
-                {
+            "frameList": [{
                     "sources": "VIDEO1",
                     "altSources": "ALTVIDEO1",
                     "audioSources": "AUDIO01",
@@ -75,8 +74,7 @@
                     "calibrationLength": 0
                 }
             ],
-            "parameterSets": [
-                {
+            "parameterSets": [{
                     "VIDEO1": "4 v 12",
                     "VIDEO2": "12 v 4",
                     "VIDEO3": "10 v 5",
@@ -256,13 +254,11 @@
         "end-experiment": {
             "kind": "exp-lookit-images-audio",
             "audio": "Recording_End",
-            "images": [
-                {
-                    "src": "Recording_End.png",
-                    "width": 40,
-                    "position": "center"
-                }
-            ],
+            "images": [{
+                "src": "Recording_End.png",
+                "width": 40,
+                "position": "center"
+            }],
             "baseDir": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/",
             "pageColor": "gray",
             "audioTypes": [
@@ -271,118 +267,11 @@
             "autoProceed": false,
             "endSessionRecording": true
         },
-        "intro-video": {
-            "kind": "exp-lookit-instruction-video",
-            "instructionsVideo": [
-                {
-                    "src": "https://raw.githubusercontent.com/sguequierre/lookit-stimuli-template/master/mp4/LookitInstructionsBlickets.mp4",
-                    "type": "video/mp4"
-                }
-            ],
-            "introText": "Welcome to the Baby Knows Numbers study! Please watch this video to get started. \n(Or you can read the summary text to the right if you prefer.)",
-            "transcriptTitle": "Video summary",
-            "transcriptBlocks": [
-                {
-                    "title": "Information about the study",
-                    "listblocks": [
-                        {
-                            "text": "<strong>Important: Your baby doesn’t need to be with you yet. It’s fine if your baby is playing nearby until the videos start!</strong>"
-                        },
-                        {
-                            "text": "Children can tell 10 cookies and 5 cookies apart from an early age. Where does this ability come from? Can babies tell numbers apart before they can speak?"
-                        },
-                        {
-                            "text": "To investigate this, your baby will be shown videos of different numbers of shapes, paired with different numbers of sounds. We are interested to see whether babies can match how many shapes they see to how many sounds they hear."
-                        },
-                        {
-                            "text": "For an example of a video your baby would see, please watch the video on the left."
-                        }
-                    ]
-                },
-                {
-                    "title": "What's next?",
-                    "listblocks": [
-                        {
-                            "text": "Because this is an online study, we will check to make sure that your webcam and microphone are set up and working properly on the next page, so we can record your baby’s looking behavior during the study."
-                        },
-                        {
-                            "text": "Following that page, you will be given an opportunity to review the consent information and we will ask that you record a short video of yourself giving consent to participate in this study."
-                        },
-                        {
-                            "text": "After you are finished with the consent page and questions, you will be provided with more detailed information about what to do during the study and how to get started."
-                        }
-                    ]
-                }
-            ],
-            "warningText": "Please watch the video or read the transcript before proceeding.",
-            "nextButtonText": "Proceed to Set-up",
-            "title": "Study overview",
-            "showPreviousButton": false
-        },
-        "instructions-video": {
-            "kind": "exp-lookit-instruction-video",
-            "instructionsVideo": [
-                {
-                    "src": "https://raw.githubusercontent.com/sguequierre/lookit-stimuli-template/master/mp4/LookitInstructionsSetUpLow.mp4",
-                    "type": "video/mp4"
-                }
-            ],
-            "introText": "Thank you for setting up your camera and for consenting to participate in the study! \n Please watch this video for study instructions - or read the summary text to the right if you prefer.",
-            "transcriptTitle": "Video summary",
-            "transcriptBlocks": [
-                {
-                    "title": "Procedure and tips for participating",
-                    "listblocks": [
-                        {
-                            "text": "<strong>Reminder: your baby does not need to be with you until the videos begin. Now, let's go over the study!</strong>"
-                        },
-                        {
-                            "text": "For visual tips on how to hold your child and ensure a good recording, please watch the video on the left."
-                        },
-                        {
-                            "text": "Your baby will see 4 sets of videos, the same or similar to what you have seen in the preview. The whole presentation will last about 5 minutes."
-                        },
-                        {
-                            "text": "Before you start the study, please close all other tabs or windows of your browser to prevent any disruptions and ensure a good connection."
-                        },
-                        {
-                            "text": "During the study, please make sure your baby’s eyes are well visible. It generally helps if there is enough light in the room, and if the light source is in front of you and not coming from behind you."
-                        },
-                        {
-                            "text": "We will ask you to please hold your baby sitting on your laps, so that we can clearly see the baby's face in the video. Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study. Even if the baby can't see where you're looking, you may unconsciously shift towards one side or the other and influence your baby's attention."
-                        },
-                        {
-                            "text": "It's perfectly fine if your baby looks away from the screen - it is part of the study! However, if they move too much, or if they attempt to touch the computer, we ask you to please hold them back in position."
-                        },
-                        {
-                            "text": "Pausing the study is easy! Please press the SPACE bar when something happens and you need to pause the study. When you are ready to resume, just press the space bar again. You will hear instructions when the study resumes. If you think you might need a longer break, for more than a few minutes, feel free to stop the study and come back to participate later."
-                        },
-                        {
-                            "text": "If you wish to exit the study all together, you are free to do so at any point by pressing the Escape button and closing the tab. You will be prompted to confirm that you want to leave the page."
-                        }
-                    ]
-                },
-                {
-                    "title": "What's next?",
-                    "listblocks": [
-                        {
-                            "text": "Please take your time to review the instructions if you'd like more time. When you feel ready, please hold your baby in the sitting position (or set the baby up in their highchair). "
-                        }
-                    ]
-                }
-            ],
-            "warningText": "Please watch the video or read the summary text before proceeding.",
-            "nextButtonText": "My baby and I are ready. \n Start the study!",
-            "title": "Study instructions",
-            "showPreviousButton": false
-        },
         "instructions-1": {
             "kind": "exp-lookit-instructions",
-            "blocks": [
-                {
+            "blocks": [{
                     "title": "Welcome to our study!",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
                         },
                         {
@@ -392,29 +281,25 @@
                 },
                 {
                     "title": "Preview of what your baby will see",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
                         },
                         {
-                            "text": "Below is a video of an example trial, if you would like to take a look now."
+                            "text": "Below is a video of an example trial. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
                         }
                     ],
                     "mediaBlock": {
                         "isVideo": true,
-                        "sources": [
-                            {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
-                                "type": "video/mp4"
-                            }
-                        ],
+                        "sources": [{
+                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
+                            "type": "video/mp4"
+                        }],
                         "mustPlay": false
                     }
                 },
                 {
                     "title": "Next steps",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "First, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
                         },
                         {
@@ -424,38 +309,13 @@
                 }
             ],
             "showWebcam": false,
-            "nextButtonText": "I'm ready to set up my webcam!"
+            "nextButtonText": "I'm ready to review the consent information!"
         },
         "instructions-2": {
             "kind": "exp-lookit-instructions",
-            "blocks": [
-                {
-                    "text": "<strong>Reminder: The video section will take about 5 minutes to complete. After that, you will be able to select a level of privacy for your data.</strong>"
-                },
-                {
-                    "image": {
-                        "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/Setup.jpg"
-                    },
-                    "title": "What to do during the experiment:",
-                    "listblocks": [
-                        {
-                            "text": "During the experiment, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend place the computer screen roughly at an adult's arm's length from your baby."
-                        },
-                        {
-                            "text": "Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study."
-                        },
-                        {
-                            "text": "Don’t worry if your baby isn’t interested in the screen the entire time. Even if they only look a little bit, we are still collecting valuable data."
-                        },
-                        {
-                            "text": "Before the experiment begins, you'll have a few moments to get ready to look away. When it is over, you'll hear an audio prompt letting you know you can look back. The experiment will last about <strong>5 minutes</strong>."
-                        }
-                    ]
-                },
-                {
+            "blocks": [{
                     "title": "Make sure your speakers are loud enough:",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "We want to analyze where your baby looks after hearing a vocalization, so it's important that they can hear the sound."
                         },
                         {
@@ -464,20 +324,17 @@
                     ],
                     "mediaBlock": {
                         "isVideo": false,
-                        "sources": [
-                            {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp3/ReadyToGo_2.mp3",
-                                "type": "audio/mp3"
-                            }
-                        ],
+                        "sources": [{
+                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp3/ReadyToGo_2.mp3",
+                            "type": "audio/mp3"
+                        }],
                         "mustPlay": true,
                         "warningText": "Please try playing the sample audio."
                     }
                 },
                 {
                     "title": "If you need to end the experiment early:",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "If your baby gets too fussy or distracted to continue, you can end the experiment early by pressing <strong>CTRL + X</strong>. A box will appear on the screen. Select '<strong>Exit</strong>' to take you to the end of the study."
                         },
                         {
@@ -487,8 +344,7 @@
                 },
                 {
                     "title": "After the experiment is over:",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "Once the experiment is over, you'll be taken to a brief <strong>exit survey</strong> where you can report any technical issues or feedback."
                         },
                         {
@@ -497,53 +353,68 @@
                     ]
                 }
             ],
-            "showWebcam": true,
-            "webcamBlocks": [
+            "nextButtonText": "We are ready to set up the baby and the webcam!"
+        },
+        "instructions-3": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
                 {
-                    "title": "It's time to get your baby and check the webcam setup!",
-                    "listblocks": [
+                    "image": {
+                        "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/Setup.jpg"
+                    },
+                    "title": "What to do during the experiment:",
+                    "listblocks": [{
+                            "text": "During the experiment, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend place the computer screen roughly at an adult's arm's length from your baby."
+                        },
                         {
+                            "text": "Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study."
+                        },
+                        {
+                            "text": "Don’t worry if your baby isn’t interested in the screen the entire time. Even if they only look a little bit, we are still collecting valuable data."
+                        }
+                    ]
+                }],
+                "showWebcam": true,
+                "webcamBlocks": [{
+                    "title": "It's time to get your baby and check the webcam setup!",
+                    "listblocks": [{
                             "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
                         },
                         {
                             "text": "The green button below will begin the study."
                         }
                     ]
-                }
-            ],
-            "nextButtonText": "My baby and I are in position & ready to start!\n(Your baby is in a high chair or stroller)"
+                }],
+                "nextButtonText": "My baby and I are in position & ready to start!\n(Your baby is in a high chair or stroller)"
+            },
+            "start-experiment": {
+                "kind": "exp-lookit-video",
+                "audio": "study_begin",
+                "images": [
+                    {
+                        "src": "Setup.jpg",
+                        "top": 40,
+                        "left": 35,
+                        "width": 30
+                    }
+                ],
+                "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+                "pageColor": "gray",
+                "audioTypes": [
+                    "mp3"
+                ],
+                "autoProceed": true,
+                "maximizeDisplay": true,
+                "startSessionRecording": true
+            }
         },
-        "start-experiment": {
-            "kind": "exp-lookit-video",
-            "audio": "Recording_Start",
-            "images": [
-                {
-                    "src": "Recording_Start.png",
-                    "top": 10,
-                    "left": 35,
-                    "width": 30
-                },
-                {
-                    "src": "Preview_1_overShoulder.jpg",
-                    "top": 40,
-                    "left": 35,
-                    "width": 30
-                }
-            ],
-            "baseDir": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/",
-            "pageColor": "gray",
-            "audioTypes": [
-                "mp3"
-            ],
-            "autoProceed": true,
-            "maximizeDisplay": true,
-            "startSessionRecording": true
-        }
-    },
-    "sequence": [
-        "instructions-1",
-        "instructions-2",
-        "test-trials",
-        "exit-survey"
-    ]
-}
+        "sequence": [
+            "instructions-1",
+            "video-consent",
+            "instructions-2",
+            "instructions-3",
+            "start-experiment",
+            "test-trials",
+            "exit-survey"
+        ]
+    }
