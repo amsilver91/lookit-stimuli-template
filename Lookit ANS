@@ -12,36 +12,40 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
-                    "announceLength": 40,
                     "sources": "VIDEO1",
                     "altSources": "ALTVIDEO1",
                     "audioSources": "AUDIO01",
                     "calibrationLength": 3000
                 },
                 {
-                    "announceLength": 40,
                     "sources": "VIDEO2",
                     "altSources": "ALTVIDEO2",
                     "audioSources": "AUDIO02",
                     "calibrationLength": 3000
                 },
                 {
-                    "announceLength": 40,
+                    "attnSources": "Maruko 7s",
+                    "Sources": [],
+                    "altSources": [],
+                    "doRecording": false,
+                    "audioSources": [],
+                    "calibrationLength": 0
+                }
+                {
                     "sources": "VIDEO3",
                     "altSources": "ALTVIDEO3",
                     "audioSources": "AUDIO03",
                     "calibrationLength": 3000
                 },
                 {
-                    "announceLength": 40,
                     "sources": "VIDEO4",
                     "altSources": "ALTVIDEO4",
                     "audioSources": "AUDIO04",
                     "calibrationLength": 3000
                 },
                 {
-                    "announceLength": 0,
-                    "sources": "Youarealldone",
+                    "attnSources": "Youarealldone",
+                    "Sources": [],
                     "altSources": [],
                     "doRecording": false,
                     "audioSources": "Youarealldone",
@@ -177,8 +181,6 @@
                     "mp4"
                 ],
                 "attnSources": "paw 21s m",
-                "introSources": "",
-                "musicSources": "",
                 "unpauseAudio": "return_after_pause",
                 "calibrationAudioSources": "chimes",
                 "calibrationVideoSources": "attractor"
@@ -202,7 +204,7 @@
             ],
             "attnSources": "paw 21s m",
             "audioSources": "4",
-            "announceLength": 40,
+            "announceLength": 0,
             "introSources": "",
             "musicSources": "",
             "unpauseAudio": "return_after_pause",
