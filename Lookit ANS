@@ -12,31 +12,39 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
+                    "announceLength": 40,
                     "sources": "VIDEO1",
                     "altSources": "ALTVIDEO1",
                     "audioSources": "AUDIO01",
-                    "calibrationLength": 2000
+                    "calibrationLength": 3000
                 },
                 {
+                    "announceLength": 40,
                     "sources": "VIDEO2",
                     "altSources": "ALTVIDEO2",
-                    "audioSources": "AUDIO02"
+                    "audioSources": "AUDIO02",
+                    "calibrationLength": 3000
                 },
                 {
+                    "announceLength": 40,
                     "sources": "VIDEO3",
                     "altSources": "ALTVIDEO3",
-                    "audioSources": "AUDIO03"
+                    "audioSources": "AUDIO03",
+                    "calibrationLength": 3000
                 },
                 {
+                    "announceLength": 40,
                     "sources": "VIDEO4",
                     "altSources": "ALTVIDEO4",
-                    "audioSources": "AUDIO04"
+                    "audioSources": "AUDIO04",
+                    "calibrationLength": 3000
                 },
                 {
-                    "sources": [],
+                    "announceLength": 0,
+                    "sources": "Youarealldone",
                     "altSources": [],
                     "doRecording": false,
-                    "audioSources": "all_done_HO",
+                    "audioSources": "Youarealldone",
                     "calibrationLength": 0
                 }
             ],
@@ -96,6 +104,62 @@
                     "AUDIO02": "12",
                     "AUDIO03": "10",
                     "AUDIO04": "10"
+                },
+                {
+                    "VIDEO1": "5 v 10",
+                    "VIDEO2": "10 v 5",
+                    "VIDEO3": "12 v 4",
+                    "VIDEO4": "4 v 12",
+                    "ALTVIDEO1": "10 v 5",
+                    "ALTVIDEO2": "5 v 10",
+                    "ALTVIDEO3": "4 v 12",
+                    "ALTVIDEO4": "12 v 4",
+                    "AUDIO01": "5",
+                    "AUDIO02": "5",
+                    "AUDIO03": "4",
+                    "AUDIO04": "4"
+                },
+                {
+                    "VIDEO1": "10 v 5",
+                    "VIDEO2": "5 v 10",
+                    "VIDEO3": "4 v 12",
+                    "VIDEO4": "12 v 4",
+                    "ALTVIDEO1": "5 v 10",
+                    "ALTVIDEO2": "10 v 5",
+                    "ALTVIDEO3": "12 v 4",
+                    "ALTVIDEO4": "4 v 12",
+                    "AUDIO01": "5",
+                    "AUDIO02": "5",
+                    "AUDIO03": "4",
+                    "AUDIO04": "4"
+                },
+                {
+                    "VIDEO1": "5 v 10",
+                    "VIDEO2": "10 v 5",
+                    "VIDEO3": "12 v 4",
+                    "VIDEO4": "4 v 12",
+                    "ALTVIDEO1": "10 v 5",
+                    "ALTVIDEO2": "5 v 10",
+                    "ALTVIDEO3": "4 v 12",
+                    "ALTVIDEO4": "12 v 4",
+                    "AUDIO01": "10",
+                    "AUDIO02": "10",
+                    "AUDIO03": "12",
+                    "AUDIO04": "12"
+                },
+                {
+                    "VIDEO1": "10 v 5",
+                    "VIDEO2": "5 v 10",
+                    "VIDEO3": "4 v 12",
+                    "VIDEO4": "12 v 4",
+                    "ALTVIDEO1": "5 v 10",
+                    "ALTVIDEO2": "10 v 5",
+                    "ALTVIDEO3": "12 v 4",
+                    "ALTVIDEO4": "4 v 12",
+                    "AUDIO01": "10",
+                    "AUDIO02": "10",
+                    "AUDIO03": "12",
+                    "AUDIO04": "12"
                 }
             ],
             "commonFrameProperties": {
@@ -113,11 +177,9 @@
                     "mp4"
                 ],
                 "attnSources": "paw 21s m",
-                "announceLength": 40,
                 "introSources": "",
                 "musicSources": "",
                 "unpauseAudio": "return_after_pause",
-                "calibrationLength": 3000,
                 "calibrationAudioSources": "chimes",
                 "calibrationVideoSources": "attractor"
             }
@@ -192,20 +254,20 @@
                     "type": "video/mp4"
                 }
             ],
-            "introText": "Welcome to the study! Please watch this video to get started. \n(Or you can read the summary to the right if you prefer.)",
+            "introText": "Welcome to the Baby Knows Numbers study! Please watch this video to get started. \n(Or you can read the summary text to the right if you prefer.)",
             "transcriptTitle": "Video summary",
             "transcriptBlocks": [
                 {
                     "title": "Information about the study",
                     "listblocks": [
                         {
-                            "text": "Your baby does not need to be with you at this point in the study. We will let you know when it is time to get your baby."
+                            "text": "<strong>Important: Your baby doesn’t need to be with you yet. It’s fine if your baby is playing nearby until the videos start!</strong>"
                         },
                         {
-                            "text": "With this study, we are looking at how babies learn about causes and effects, and specifically, whether babies recognize when they have enough information to conclude that one event caused another."
+                            "text": "Children can tell 10 cookies and 5 cookies apart from an early age. Where does this ability come from? Can babies tell numbers apart before they can speak?"
                         },
                         {
-                            "text": "To investigate this, your baby will be shown videos of a girl placing objects on a machine, and then sorting the objects into boxes. The videos aim to teach the babies which objects make the machine light up and play music (or not), and which of the boxes the objects belong to. In some of the trials, we want look at whether babies predict which box the new objects will be placed into. Those trials will start with an animation displayed in the crucial parts of the screen, so that we can then more easily tell where your baby was looking during the videos."
+                            "text": "To investigate this, your baby will be shown videos of different numbers of shapes, paired with different numbers of sounds. We are interested to see whether babies can match how many shapes they see to how many sounds they hear."
                         },
                         {
                             "text": "For an example of a video your baby would see, please watch the video on the left."
@@ -240,35 +302,35 @@
                     "type": "video/mp4"
                 }
             ],
-            "introText": "Thank you for setting up your camera and for consenting to participate in the study! \n Please watch this video for study instructions - or read the summary to the right if you prefer.",
+            "introText": "Thank you for setting up your camera and for consenting to participate in the study! \n Please watch this video for study instructions - or read the summary text to the right if you prefer.",
             "transcriptTitle": "Video summary",
             "transcriptBlocks": [
                 {
                     "title": "Procedure and tips for participating",
                     "listblocks": [
                         {
-                            "text": "Your baby does not need to be with you at this point in the study. We will let you know when it is time to get your baby."
+                            "text": "<strong>Reminder: your baby does not need to be with you until the videos begin. Now, let's go over the study!</strong>"
                         },
                         {
                             "text": "For visual tips on how to hold your child and ensure a good recording, please watch the video on the left."
                         },
                         {
-                            "text": "Your baby will see 16 videos, the same or similar to what you have seen in the preview. The whole presentation will last about 6 minutes."
+                            "text": "Your baby will see 4 sets of videos, the same or similar to what you have seen in the preview. The whole presentation will last about 5 minutes."
                         },
                         {
-                            "text": "Before you start the study, please close all other tabs or windows of your browser to minimise any disruptions and ensure a good connection."
+                            "text": "Before you start the study, please close all other tabs or windows of your browser to prevent any disruptions and ensure a good connection."
                         },
                         {
-                            "text": "During the study, please make sure your baby’s eyes are well visible. In generally helps if there is enough light in the room, and if the light source is in front of you and not coming from behind you."
+                            "text": "During the study, please make sure your baby’s eyes are well visible. It generally helps if there is enough light in the room, and if the light source is in front of you and not coming from behind you."
                         },
                         {
-                            "text": "We will ask you to hold your child sitting in your lap so that both of your faces are visible. We are interested in seeing where the babies look, so we will ask you not to direct your baby’s attention and please close your eyes or look at your baby’s head during the videos. The reason we ask this is that your baby is learning from you all the time. Even if they can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention."
+                            "text": "We will ask you to please hold your baby sitting on your laps, so that we can clearly see the baby's face in the video. Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study. Even if the baby can't see where you're looking, you may unconsciously shift towards one side or the other and influence your baby's attention."
                         },
                         {
-                            "text": "Don’t worry if your baby doesn’t look at the screen all the time. We expect them to look away and we only ask you to try to prevent them from moving around too much."
+                            "text": "It's perfectly fine if your baby looks away from the screen - it is part of the study! However, if they move too much, or if they attempt to touch the computer, we ask you to please hold them back in position."
                         },
                         {
-                            "text": "If you need to pause the study, you can press the space bar at any point. When you are ready to continue, you just press the space bar again, you will hear a sound, and the study will resume. Please try to keep any breaks short and no longer than a few minutes."
+                            "text": "Pausing the study is easy! Please press the SPACE bar when something happens and you need to pause the study. When you are ready to resume, just press the space bar again. You will hear instructions when the study resumes. If you think you might need a longer break, for more than a few minutes, feel free to stop the study and come back to participate later."
                         },
                         {
                             "text": "If you wish to exit the study all together, you are free to do so at any point by pressing the Escape button and closing the tab. You will be prompted to confirm that you want to leave the page."
@@ -279,12 +341,12 @@
                     "title": "What's next?",
                     "listblocks": [
                         {
-                            "text": "If you are ready, you can now get your baby and start the study. Thank you so much for taking part and I hope your baby likes the videos!"
+                            "text": "Please take your time to review the instructions if you'd like more time. When you feel ready, please hold your baby in the sitting position (or set the baby up in their highchair). "
                         }
                     ]
                 }
             ],
-            "warningText": "Please watch the video or read the transcript before proceeding.",
+            "warningText": "Please watch the video or read the summary text before proceeding.",
             "nextButtonText": "My baby and I are ready. \n Start the study!",
             "title": "Study instructions",
             "showPreviousButton": false
@@ -458,7 +520,7 @@
     },
     "sequence": [
         "instructions-1",
-        "test-trial-6",
+        "test-trials",
         "exit-survey"
     ]
 }
