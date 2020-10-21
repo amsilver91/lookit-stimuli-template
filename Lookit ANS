@@ -362,17 +362,24 @@
                     "image": {
                         "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/Setup.jpg"
                     },
-                    "title": "What to do during the experiment:",
+                    "title": "What to do during the study:",
                     "listblocks": [{
-                            "text": "During the experiment, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend place the computer screen roughly at an adult's arm's length from your baby."
+                            "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend placing the computer screen roughly at an adult's arm's length from your baby."
                         },
                         {
-                            "text": "Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study."
-                        },
-                        {
-                            "text": "Don’t worry if your baby isn’t interested in the screen the entire time. Even if they only look a little bit, we are still collecting valuable data."
+                            "text": "Please try not to direct baby's attention during the study, and don't worry if your baby isn’t interested in the screen the entire time."
                         }
-                    ]
+                    ],
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [{
+                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/instructions.mov",
+                            "type": "video/mov"
+                        }],
+                        "mustPlay": true,
+                        "warningText": "Please review the instructions."
+                    }
+                },
                 }],
                 "showWebcam": true,
                 "webcamBlocks": [{
@@ -390,14 +397,6 @@
             "start-experiment": {
                 "kind": "exp-lookit-video",
                 "audio": "study_begin",
-                "images": [
-                    {
-                        "src": "Setup.jpg",
-                        "top": 40,
-                        "left": 35,
-                        "width": 30
-                    }
-                ],
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "pageColor": "gray",
                 "audioTypes": [
