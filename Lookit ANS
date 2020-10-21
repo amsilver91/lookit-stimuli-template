@@ -3,7 +3,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, when babies hear series of sounds <a href='https://www.pnas.org/content/pnas/114/45/11896.full.pdf' rel='noreferrer noopener external nofollow' target='_blank'>here</a>.) This study tries to see if even younger babies also have this ability. There is no right or wrong in your baby’s response! We just want to see, in general, what babies think and how they learn at different ages. \n\n The ability to connect emotional vocalizations to their probable causes is fundamental to human relationships, allowing us to empathize with, react to, and predict other people's experiences of the world. Most previous work on early emotion understanding has focused on children’s understanding of a few basic emotions or on broad distinctions between positive and negative emotions. In this study, we are looking at more fine-grained distinctions between specific positive emotions. \n\n This research wouldn’t be possible without awesome parents like you. To thank you for your participation, we’ll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don’t hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you’ll receive one gift card per child. Thank you again for your participation!",
+                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, a previous study showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart! \n\n The current study asks how this ability to tell numbers apart develops early in infancy. Specifically, babies that are about the age of your baby might be able to tell apart numbers that are closer together (such as 5 vs. 10) as well! \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation!",
                 "title": "What was this study about?"
             }
         },
@@ -19,6 +19,15 @@
                     "calibrationLength": 2000
                 },
                 {
+                    "attnSources": "maruko 7s",
+                    "announceLength": 8,
+                    "Sources": [],
+                    "altSources": [],
+                    "doRecording": false,
+                    "audioSources": [],
+                    "calibrationLength": 0
+                },
+                {
                     "sources": "VIDEO2",
                     "altSources": "ALTVIDEO2",
                     "audioSources": "AUDIO02",
@@ -27,6 +36,7 @@
                 },
                 {
                     "attnSources": "maruko 7s",
+                    "announceLength": 8,
                     "Sources": [],
                     "altSources": [],
                     "doRecording": false,
@@ -39,6 +49,15 @@
                     "audioSources": "AUDIO03",
                     "musicSources": "AUDIO03",
                     "calibrationLength": 2000
+                },
+                {
+                    "attnSources": "maruko 7s",
+                    "announceLength": 8,
+                    "Sources": [],
+                    "altSources": [],
+                    "doRecording": false,
+                    "audioSources": [],
+                    "calibrationLength": 0
                 },
                 {
                     "sources": "VIDEO4",
@@ -223,11 +242,11 @@
         "video-consent": {
             "gdpr": false,
             "kind": "exp-lookit-video-consent",
-            "PIName": "Jenny Wang",
+            "PIName": "Elizabeth Bonawitz",
             "datause": [],
             "purpose": "This study is part of a larger research program aiming to understand how infants and children are able to learn so much about the different objects and people they encounter in the world around them. ",
             "template": "consent_003",
-            "PIContact": "Jenny Wang - jinjing.jenny.wang@rutgers.edu",
+            "PIContact": "Elizabeth Bonawitz - child.research@psych.rutgers.edu",
             "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world. Please note that you and your child are NOT being evaluated academically or psychologically, we are simply conducting basic research.",
             "institution": "Rutgers University",
             "payment": "There are no foreseeable risks to participation in this study. While participation in this research provides no direct benefit to you or your child, the results will help us learn about children’s cognitive development. Thank you for taking part!",
@@ -367,7 +386,7 @@
                             "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
                         },
                         {
-                            "text": "Babies hear emotional expressions all the time! In this study, we would like to see if they can match some common vocal emotional expressions such as 'aww' and 'mmm' to a likely cause (such as a stuffed animal or baby food). Understanding the causes of people’s emotional reactions is an important skill in building human relationships."
+                            "text": "Children can tell 10 cookies and 5 cookies apart from an early age. Where does this ability come from? Can babies tell numbers apart before they can speak? This study will help us understand what kind of number information draws babies' attention, and how babies' ability to see numbers develop over time."
                         }
                     ]
                 },
@@ -375,7 +394,7 @@
                     "title": "Preview of what your baby will see",
                     "listblocks": [
                         {
-                            "text": "Your baby will see 6 pairs of pictures and hear an emotional vocalization that matches one of the pictures. We are interested in where they choose to look!"
+                            "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
                         },
                         {
                             "text": "Below is a video of an example trial, if you would like to take a look now."
@@ -385,7 +404,7 @@
                         "isVideo": true,
                         "sources": [
                             {
-                                "src": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/mp4/Preview_fullTrial_small.mp4",
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
                                 "type": "video/mp4"
                             }
                         ],
@@ -404,7 +423,17 @@
                         {
                             "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
                         }
-                    ]
+                    ],
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/instructionsvideo.mp4",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "mustPlay": false
+                    }
                 }
             ],
             "showWebcam": false,
@@ -414,25 +443,25 @@
             "kind": "exp-lookit-instructions",
             "blocks": [
                 {
-                    "text": "<strong>Please read this page carefully before you begin!</strong>"
+                    "text": "<strong>If you'd like to watch an instructions video to review how to set up for the study, please check the previous page.</strong>"
                 },
                 {
                     "image": {
-                        "src": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/img/Preview_1_overShoulder.jpg"
+                        "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/setup.jpg"
                     },
                     "title": "What to do during the experiment:",
                     "listblocks": [
                         {
-                            "text": "During the experiment, we'll ask that you hold your baby <strong>looking over your shoulder</strong> like this, so that you're facing away from the screen."
+                            "text": "During the experiment, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend place the computer screen roughly at an adult's arm's length from your baby."
                         },
                         {
-                            "text": "The reason we ask this is that your baby is learning from you all the time. You may unconsciously shift towards one side or the other and influence your baby's attention. We want to make sure we're measuring your baby's preferences, not yours!"
+                            "text": "Since your baby is learning from you all the time, it is very important that you are not looking at the screen or directing the baby's attention during the study. Even if the baby can't see where you're looking, you may unconsciously shift towards one side or the other and influence your baby's attention."
                         },
                         {
                             "text": "Don’t worry if your baby isn’t interested in the screen the entire time. Even if they only look a little bit, we are still collecting valuable data."
                         },
                         {
-                            "text": "Before the experiment begins, you'll have a few moments to turn around. When it is over, you'll hear an audio prompt letting you know you can turn back around. The experiment will last about <strong>6 minutes</strong>."
+                            "text": "Before the experiment begins, you'll have a few moments to get ready to look away. When it is over, you'll hear an audio prompt letting you know you can look back. The experiment will last about <strong>5 minutes</strong>."
                         }
                     ]
                 },
@@ -450,7 +479,7 @@
                         "isVideo": false,
                         "sources": [
                             {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp3/Happy.mp3",
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp3/ReadyToGo_2.mp3",
                                 "type": "audio/mp3"
                             }
                         ],
@@ -484,7 +513,7 @@
             "showWebcam": true,
             "webcamBlocks": [
                 {
-                    "title": "It's time to get your baby & check the webcam view!",
+                    "title": "It's time to get your baby and check the webcam setup!",
                     "listblocks": [
                         {
                             "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
@@ -495,7 +524,7 @@
                     ]
                 }
             ],
-            "nextButtonText": "My baby and I are in position & ready to start!\n(You'll have about 10 sec to turn around.)"
+            "nextButtonText": "My baby and I are in position & ready to start!\n(Your baby is in a high chair or stroller)"
         },
         "start-experiment": {
             "kind": "exp-lookit-video",
@@ -526,6 +555,7 @@
     },
     "sequence": [
         "instructions-1",
+        "instructions-2",
         "test-trials",
         "exit-survey"
     ]
