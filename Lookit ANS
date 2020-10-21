@@ -15,33 +15,37 @@
                     "sources": "VIDEO1",
                     "altSources": "ALTVIDEO1",
                     "audioSources": "AUDIO01",
-                    "calibrationLength": 3000
+                    "musicSources": "AUDIO01",
+                    "calibrationLength": 2000
                 },
                 {
                     "sources": "VIDEO2",
                     "altSources": "ALTVIDEO2",
                     "audioSources": "AUDIO02",
-                    "calibrationLength": 3000
+                    "musicSources": "AUDIO02",
+                    "calibrationLength": 2000
                 },
                 {
-                    "attnSources": "Maruko 7s",
+                    "attnSources": "maruko 7s",
                     "Sources": [],
                     "altSources": [],
                     "doRecording": false,
                     "audioSources": [],
                     "calibrationLength": 0
-                }
+                },
                 {
                     "sources": "VIDEO3",
                     "altSources": "ALTVIDEO3",
                     "audioSources": "AUDIO03",
-                    "calibrationLength": 3000
+                    "musicSources": "AUDIO03",
+                    "calibrationLength": 2000
                 },
                 {
                     "sources": "VIDEO4",
                     "altSources": "ALTVIDEO4",
                     "audioSources": "AUDIO04",
-                    "calibrationLength": 3000
+                    "musicSources": "AUDIO04",
+                    "calibrationLength": 2000
                 },
                 {
                     "attnSources": "Youarealldone",
