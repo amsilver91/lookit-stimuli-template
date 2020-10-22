@@ -16,7 +16,7 @@
                     "altSources": "ALTVIDEO1",
                     "audioSources": "AUDIO01",
                     "musicSources": "AUDIO01",
-                    "calibrationLength": 2000
+                    "calibrationLength": 0
                 },
                 {
                     "attnSources": "maruko 7s",
@@ -32,7 +32,7 @@
                     "altSources": "ALTVIDEO2",
                     "audioSources": "AUDIO02",
                     "musicSources": "AUDIO02",
-                    "calibrationLength": 2000
+                    "calibrationLength": 0
                 },
                 {
                     "attnSources": "maruko 7s",
@@ -48,7 +48,7 @@
                     "altSources": "ALTVIDEO3",
                     "audioSources": "AUDIO03",
                     "musicSources": "AUDIO03",
-                    "calibrationLength": 2000
+                    "calibrationLength": 0
                 },
                 {
                     "attnSources": "maruko 7s",
@@ -64,7 +64,7 @@
                     "altSources": "ALTVIDEO4",
                     "audioSources": "AUDIO04",
                     "musicSources": "AUDIO04",
-                    "calibrationLength": 2000
+                    "calibrationLength": 0
                 },
                 {
                     "attnSources": "Youarealldone",
@@ -280,7 +280,7 @@
             "showWebcam": false,
             "nextButtonText": "I'm ready to set up my webcam!"
         },
-        "instructions-setup": {
+        "instructions-setup-highchair": {
             "kind": "exp-lookit-images-audio",
             "images": [
                 {
@@ -297,6 +297,29 @@
             ],
             "parentTextBlock": {
                 "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen. The computer screen should be roughly at an adult's arm's length from your baby.",
+                "title": "Make sure you also hear it:"
+            },
+            "autoProceed": false,
+            "maximizeDisplay": false,
+            "doRecording": false
+        },
+        "instructions-setup-laps": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "laps",
+                    "src": "Laps.jpg",
+                    "position": "fill"
+                }
+            ],
+            "audio": "setupbabylap",
+            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+            "pageColor": "white",
+            "audioTypes": [
+                "mp3"
+            ],
+            "parentTextBlock": {
+                "text": "During the study, we will ask you to please seat your baby on your laps. The computer screen should be roughly at your arm's length from your baby.",
                 "title": "Make sure you also hear it:"
             },
             "autoProceed": false,
