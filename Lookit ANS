@@ -428,7 +428,7 @@
                         {
                             "image": {
                                 "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
-                                "width": 40,
+                                "width": 200,
                                 "position": "center"
                             }
                         }
