@@ -16,7 +16,7 @@
                     "altSources": "ALTVIDEO1",
                     "audioSources": "AUDIO01",
                     "musicSources": "AUDIO01",
-                    "calibrationLength": 0
+                    "calibrationLength": 2000
                 },
                 {
                     "attnSources": "maruko 7s",
@@ -32,7 +32,7 @@
                     "altSources": "ALTVIDEO2",
                     "audioSources": "AUDIO02",
                     "musicSources": "AUDIO02",
-                    "calibrationLength": 0
+                    "calibrationLength": 2000
                 },
                 {
                     "attnSources": "maruko 7s",
@@ -48,7 +48,7 @@
                     "altSources": "ALTVIDEO3",
                     "audioSources": "AUDIO03",
                     "musicSources": "AUDIO03",
-                    "calibrationLength": 0
+                    "calibrationLength": 2000
                 },
                 {
                     "attnSources": "maruko 7s",
@@ -64,7 +64,7 @@
                     "altSources": "ALTVIDEO4",
                     "audioSources": "AUDIO04",
                     "musicSources": "AUDIO04",
-                    "calibrationLength": 0
+                    "calibrationLength": 2000
                 },
                 {
                     "attnSources": "Youarealldone",
