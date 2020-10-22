@@ -358,12 +358,16 @@
                     "position": "fill"
                 }
             ],
-            "audio": "study_begin",
+            "audio": "study-begin",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "gray",
             "audioTypes": [
                 "mp3"
             ],
+            "parentTextBlock": {
+                "text": "The videos take about 5 minutes.",
+                "title": "Get ready to close your eyes!"
+            },
             "autoProceed": true,
             "maximizeDisplay": true,
             "doRecording": true
