@@ -388,35 +388,12 @@
                 "mp3"
             ],
             "parentTextBlock": {
-                "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend placing the computer screen roughly at an adult's arm's length from your baby.",
+                "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen. The computer screen should be roughly at an adult's arm's length from your baby.",
                 "title": "What to do during the study:"
             },
-            "nextButtonText": "My baby and I are in position & ready to start!",
-            "showPreviousButton": true,
-            "displayFullscreenOverride": true,
-            "startRecordingAutomatically": false
-        },
-        "instructions-lighting": {
-            "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "clear",
-                "src": "clear.jpg",
-                "position": "fill"
-            }],
-            "audio": "setupclear",
-            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
-            "pageColor": "white",
-            "audioTypes": [
-                "mp3"
-            ],
-            "parentTextBlock": {
-                "text": "To reduce possible distraction for the baby, please help us turn off any additional monitors you may have, and clear out the area immediately next to the computer screen.",
-                "title": "What to do during the study:"
-            },
-            "nextButtonText": "My baby and I are in position & ready to start!",
-            "showPreviousButton": true,
-            "displayFullscreenOverride": true,
-            "startRecordingAutomatically": false
+            "autoProceed": false,
+            "maximizeDisplay": false,
+            "doRecording": false
         },
         "instructions-webcam": {
             "kind": "exp-lookit-webcam-display",
@@ -443,8 +420,8 @@
         "start-experiment": {
             "kind": "exp-lookit-images-audio",
             "images": [{
-                "id": "lighting",
-                "src": "lighting.jpg",
+                "id": "setup",
+                "src": "Setup.jpg",
                 "position": "fill"
             }],
             "audio": "study_begin",
@@ -460,8 +437,8 @@
     },
     "sequence": [
         "instructions-setup",
-        "instructions-lighting",
         "instructions-webcam",
+        "start-experiment",
         "test-trials",
         "exit-survey"
     ]
