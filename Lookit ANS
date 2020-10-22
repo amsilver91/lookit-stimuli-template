@@ -194,6 +194,7 @@
                 "isLast": false,
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "testCount": 1,
+                "testLength": 20,
                 "audioTypes": [
                     "ogg",
                     "mp3"
@@ -206,7 +207,10 @@
                 "attnSources": "paw 21s m",
                 "unpauseAudio": "return_after_pause",
                 "calibrationAudioSources": "chimes",
-                "calibrationVideoSources": "attractor"
+                "calibrationVideoSources": "attractor",
+                "calibrationPositions": [
+                    "center"
+                ]
             }
         },
         "video-config": {
