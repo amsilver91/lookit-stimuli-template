@@ -353,8 +353,8 @@
             "kind": "exp-lookit-images-audio",
             "images": [
                 {
-                    "id": "setup",
-                    "src": "Setup.jpg",
+                    "id": "ready",
+                    "src": "numbers.jpg",
                     "position": "fill"
                 }
             ],
@@ -373,7 +373,7 @@
         "instructions-1",
         "video-config",
         "video-consent",
-        "instructions-setup",
+        "instructions-setup-laps",
         "instructions-webcam",
         "start-experiment",
         "test-trials",
