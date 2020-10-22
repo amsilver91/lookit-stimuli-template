@@ -209,32 +209,6 @@
                 "calibrationVideoSources": "attractor"
             }
         },
-        "test-trial-6": {
-            "kind": "exp-lookit-composite-video-trial",
-            "isLast": false,
-            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
-            "sources": "4 v 12",
-            "testCount": 1,
-            "altSources": "12 v 4",
-            "audioTypes": [
-                "ogg",
-                "mp3"
-            ],
-            "pauseAudio": "pause",
-            "videoTypes": [
-                "mov",
-                "mp4"
-            ],
-            "attnSources": "paw 21s m",
-            "audioSources": "4",
-            "announceLength": 0,
-            "introSources": "",
-            "musicSources": "",
-            "unpauseAudio": "return_after_pause",
-            "calibrationLength": 3000,
-            "calibrationAudioSources": "chimes",
-            "calibrationVideoSources": "attractor"
-        },
         "video-config": {
             "kind": "exp-video-config",
             "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact us at child.research@psych.rutgers.edu and we'd be glad to help you out!"
@@ -252,24 +226,6 @@
             "payment": "There are no foreseeable risks to participation in this study. While participation in this research provides no direct benefit to you or your child, the results will help us learn about children’s cognitive development. Thank you for taking part!",
             "additional_segments": [],
             "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Rutgers IRB Director at: Arts and Sciences IRB, 335 George St., Liberty Plaza Ste. 3200, New Brunswick, NJ 08901 (732) 235-2866 or the Rutgers Human Subjects Protection Program at (973) 972-1149, email us at humansubjects@ored.rutgers.edu or write us at 65 Bergen St., Suite 507, Newark, NJ 07107."
-        },
-        "end-experiment": {
-            "kind": "exp-lookit-images-audio",
-            "audio": "Recording_End",
-            "images": [
-                {
-                    "src": "Recording_End.png",
-                    "width": 40,
-                    "position": "center"
-                }
-            ],
-            "baseDir": "https://raw.githubusercontent.com/schang198/lookit-stimuli-template/master/",
-            "pageColor": "gray",
-            "audioTypes": [
-                "mp3"
-            ],
-            "autoProceed": false,
-            "endSessionRecording": true
         },
         "instructions-1": {
             "kind": "exp-lookit-instructions",
@@ -310,88 +266,19 @@
                     "title": "Next steps",
                     "listblocks": [
                         {
-                            "text": "First, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
+                            "text": "First, we will make sure that your webcam is setup for the study."
                         },
                         {
-                            "text": "Next, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
+                            "text": "Next, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
+                        },
+                        {
+                            "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
                         }
                     ]
                 }
             ],
             "showWebcam": false,
-            "nextButtonText": "I'm ready to review the consent information!"
-        },
-        "instructions-2": {
-            "kind": "exp-lookit-instructions",
-            "blocks": [
-                {
-                    "title": "Make sure your speakers are loud enough:",
-                    "listblocks": [
-                        {
-                            "text": "We want to analyze where your baby looks after hearing a vocalization, so it's important that they can hear the sound."
-                        },
-                        {
-                            "text": "Please play this sample audio track to make sure your baby will be able to <strong>hear it clearly</strong>!"
-                        }
-                    ],
-                    "mediaBlock": {
-                        "isVideo": false,
-                        "sources": [
-                            {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp3/ReadyToGo_2.mp3",
-                                "type": "audio/mp3"
-                            }
-                        ],
-                        "mustPlay": true,
-                        "warningText": "Please try playing the sample audio."
-                    }
-                },
-                {
-                    "title": "If you need to end the experiment early:",
-                    "listblocks": [
-                        {
-                            "text": "If your baby gets too fussy or distracted to continue, you can end the experiment early by pressing <strong>CTRL + X</strong>. A box will appear on the screen. Select '<strong>Exit</strong>' to take you to the end of the study."
-                        },
-                        {
-                            "text": "Even if you end the experiment early, we can still use the data from when your baby was looking."
-                        }
-                    ]
-                },
-                {
-                    "title": "After the experiment is over:",
-                    "listblocks": [
-                        {
-                            "text": "Once the experiment is over, you'll be taken to a brief <strong>exit survey</strong> where you can report any technical issues or feedback."
-                        },
-                        {
-                            "text": "You will also select a <strong>privacy level</strong> for your videos."
-                        }
-                    ]
-                }
-            ],
-            "nextButtonText": "We are ready to set up the baby and the webcam!"
-        },
-        "instructions-3": {
-            "kind": "exp-lookit-instructions",
-            "blocks": [
-                {
-                    "image": {
-                        "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/Setup.jpg"
-                    },
-                    "title": "What to do during the study:",
-                    "listblocks": [
-                        {
-                            "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen, so that we can clearly see the baby's face in the video. We recommend placing the computer screen roughly at an adult's arm's length from your baby."
-                        },
-                        {
-                            "text": "To reduce possible distraction for the baby, please help us turn off any additional monitors you may have, and clear out the area immediately next to the computer screen."
-                        },
-                        {
-                            "text": "Please try not to direct baby's attention during the study, and don't worry if your baby isn’t interested in the screen the entire time."
-                        }
-                    ]
-                }
-            ]
+            "nextButtonText": "I'm ready to set up my webcam!"
         },
         "instructions-setup": {
             "kind": "exp-lookit-images-audio",
@@ -410,7 +297,7 @@
             ],
             "parentTextBlock": {
                 "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen. The computer screen should be roughly at an adult's arm's length from your baby.",
-                "title": "What to do during the study:"
+                "title": "Make sure you also hear it:"
             },
             "autoProceed": false,
             "maximizeDisplay": false,
@@ -428,6 +315,7 @@
                         {
                             "image": {
                                 "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
+                                "position": "center"
                             }
                         }
                     ]
@@ -435,7 +323,7 @@
             ],
             "nextButtonText": "My baby and I are in position & ready to start!",
             "showPreviousButton": true,
-            "displayFullscreenOverride": false,
+            "displayFullscreenOverride": true,
             "startRecordingAutomatically": false
         },
         "start-experiment": {
@@ -459,6 +347,10 @@
         }
     },
     "sequence": [
+        "instructions-1",
+        "video-config",
+        "video-consent",
+        "instructions-setup",
         "instructions-webcam",
         "start-experiment",
         "test-trials",
