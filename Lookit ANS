@@ -428,8 +428,6 @@
                         {
                             "image": {
                                 "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
-                                "width": 200,
-                                "position": "center"
                             }
                         }
                     ]
@@ -461,7 +459,6 @@
         }
     },
     "sequence": [
-        "instructions-setup",
         "instructions-webcam",
         "start-experiment",
         "test-trials",
