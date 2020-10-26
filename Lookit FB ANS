@@ -11,58 +11,53 @@
             "kind": "choice",
             "sampler": "random-parameter-set",
             "frameList": [{
-                    "sources": "VIDEO1",
-                    "altSources": "ALTVIDEO1",
-                    "audioSources": "AUDIO01",
-                    "musicSources": "AUDIO01",
+                    "sources": "fam-5-10",
+                    "altSources": [],
                     "calibrationLength": 2000
                 },
                 {
-                    "attnSources": "maruko 7s",
-                    "announceLength": 8,
-                    "Sources": [],
+                    "sources": "fam-8-16",
                     "altSources": [],
-                    "doRecording": false,
-                    "audioSources": [],
-                    "calibrationLength": 0
+                    "calibrationLength": 2000
+                },
+                {
+                    "sources": "fam-8-16",
+                    "altSources": [],
+                    "calibrationLength": 2000
+                },
+                {
+                    "sources": "fam-5-10",
+                    "altSources": [],
+                    "calibrationLength": 2000
+                },
+                {
+                    "sources": "fam-8-16",
+                    "altSources": [],
+                    "calibrationLength": 2000
+                },
+                {
+                    "sources": "fam-5-10",
+                    "altSources": [],
+                    "calibrationLength": 2000
+                },
+                {
+                    "sources": "VIDEO1",
+                    "altSources": [],
+                    "calibrationLength": 2000
                 },
                 {
                     "sources": "VIDEO2",
-                    "altSources": "ALTVIDEO2",
-                    "audioSources": "AUDIO02",
-                    "musicSources": "AUDIO02",
-                    "calibrationLength": 2000
-                },
-                {
-                    "attnSources": "maruko 7s",
-                    "announceLength": 8,
-                    "Sources": [],
                     "altSources": [],
-                    "doRecording": false,
-                    "audioSources": [],
-                    "calibrationLength": 0
+                    "calibrationLength": 2000
                 },
                 {
                     "sources": "VIDEO3",
-                    "altSources": "ALTVIDEO3",
-                    "audioSources": "AUDIO03",
-                    "musicSources": "AUDIO03",
+                    "altSources": [],
                     "calibrationLength": 2000
                 },
                 {
-                    "attnSources": "maruko 7s",
-                    "announceLength": 8,
-                    "Sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": [],
-                    "calibrationLength": 0
-                },
-                {
                     "sources": "VIDEO4",
-                    "altSources": "ALTVIDEO4",
-                    "audioSources": "AUDIO04",
-                    "musicSources": "AUDIO04",
+                    "altSources": [],
                     "calibrationLength": 2000
                 },
                 {
@@ -75,116 +70,28 @@
                 }
             ],
             "parameterSets": [{
-                    "VIDEO1": "4 v 12",
-                    "VIDEO2": "12 v 4",
-                    "VIDEO3": "10 v 5",
-                    "VIDEO4": "5 v 10",
-                    "ALTVIDEO1": "12 v 4",
-                    "ALTVIDEO2": "4 v 12",
-                    "ALTVIDEO3": "5 v 10",
-                    "ALTVIDEO4": "10 v 5",
-                    "AUDIO01": "4",
-                    "AUDIO02": "4",
-                    "AUDIO03": "5",
-                    "AUDIO04": "5"
+                    "VIDEO1": "test-5-10-more",
+                    "VIDEO2": "test-5-10-less",
+                    "VIDEO3": "test-8-16-less",
+                    "VIDEO4": "test-8-16-more"
                 },
                 {
-                    "VIDEO1": "12 v 4",
-                    "VIDEO2": "4 v 12",
-                    "VIDEO3": "5 v 10",
-                    "VIDEO4": "10 v 5",
-                    "ALTVIDEO1": "4 v 12",
-                    "ALTVIDEO2": "12 v 4",
-                    "ALTVIDEO3": "10 v 5",
-                    "ALTVIDEO4": "5 v 10",
-                    "AUDIO01": "4",
-                    "AUDIO02": "4",
-                    "AUDIO03": "5",
-                    "AUDIO04": "5"
+                    "VIDEO1": "test-5-10-less",
+                    "VIDEO2": "test-5-10-more",
+                    "VIDEO3": "test-8-16-more",
+                    "VIDEO4": "test-8-16-less"
                 },
                 {
-                    "VIDEO1": "4 v 12",
-                    "VIDEO2": "12 v 4",
-                    "VIDEO3": "10 v 5",
-                    "VIDEO4": "5 v 10",
-                    "ALTVIDEO1": "12 v 4",
-                    "ALTVIDEO2": "4 v 12",
-                    "ALTVIDEO3": "5 v 10",
-                    "ALTVIDEO4": "10 v 5",
-                    "AUDIO01": "12",
-                    "AUDIO02": "12",
-                    "AUDIO03": "10",
-                    "AUDIO04": "10"
+                    "VIDEO1": "test-8-16-more",
+                    "VIDEO2": "test-8-16-less",
+                    "VIDEO3": "test-5-10-less",
+                    "VIDEO4": "test-5-10-more"
                 },
                 {
-                    "VIDEO1": "12 v 4",
-                    "VIDEO2": "4 v 12",
-                    "VIDEO3": "5 v 10",
-                    "VIDEO4": "10 v 5",
-                    "ALTVIDEO1": "4 v 12",
-                    "ALTVIDEO2": "12 v 4",
-                    "ALTVIDEO3": "10 v 5",
-                    "ALTVIDEO4": "5 v 10",
-                    "AUDIO01": "12",
-                    "AUDIO02": "12",
-                    "AUDIO03": "10",
-                    "AUDIO04": "10"
-                },
-                {
-                    "VIDEO1": "5 v 10",
-                    "VIDEO2": "10 v 5",
-                    "VIDEO3": "12 v 4",
-                    "VIDEO4": "4 v 12",
-                    "ALTVIDEO1": "10 v 5",
-                    "ALTVIDEO2": "5 v 10",
-                    "ALTVIDEO3": "4 v 12",
-                    "ALTVIDEO4": "12 v 4",
-                    "AUDIO01": "5",
-                    "AUDIO02": "5",
-                    "AUDIO03": "4",
-                    "AUDIO04": "4"
-                },
-                {
-                    "VIDEO1": "10 v 5",
-                    "VIDEO2": "5 v 10",
-                    "VIDEO3": "4 v 12",
-                    "VIDEO4": "12 v 4",
-                    "ALTVIDEO1": "5 v 10",
-                    "ALTVIDEO2": "10 v 5",
-                    "ALTVIDEO3": "12 v 4",
-                    "ALTVIDEO4": "4 v 12",
-                    "AUDIO01": "5",
-                    "AUDIO02": "5",
-                    "AUDIO03": "4",
-                    "AUDIO04": "4"
-                },
-                {
-                    "VIDEO1": "5 v 10",
-                    "VIDEO2": "10 v 5",
-                    "VIDEO3": "12 v 4",
-                    "VIDEO4": "4 v 12",
-                    "ALTVIDEO1": "10 v 5",
-                    "ALTVIDEO2": "5 v 10",
-                    "ALTVIDEO3": "4 v 12",
-                    "ALTVIDEO4": "12 v 4",
-                    "AUDIO01": "10",
-                    "AUDIO02": "10",
-                    "AUDIO03": "12",
-                    "AUDIO04": "12"
-                },
-                {
-                    "VIDEO1": "10 v 5",
-                    "VIDEO2": "5 v 10",
-                    "VIDEO3": "4 v 12",
-                    "VIDEO4": "12 v 4",
-                    "ALTVIDEO1": "5 v 10",
-                    "ALTVIDEO2": "10 v 5",
-                    "ALTVIDEO3": "12 v 4",
-                    "ALTVIDEO4": "4 v 12",
-                    "AUDIO01": "10",
-                    "AUDIO02": "10",
-                    "AUDIO03": "12",
-                    "AUDIO04": "12"
+                    "VIDEO1": "test-8-16-less",
+                    "VIDEO2": "test-8-16-more",
+                    "VIDEO3": "test-5-10-more",
+                    "VIDEO4": "test-5-10-less"
                 }
             ],
             "commonFrameProperties": {
@@ -202,7 +109,6 @@
                     "mov",
                     "mp4"
                 ],
-                "attnSources": "paw 21s m",
                 "unpauseAudio": "return_after_pause",
                 "calibrationAudioSources": "chimes",
                 "calibrationVideoSources": "attractor",
@@ -237,14 +143,14 @@
                             "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
                         },
                         {
-                            "text": "Children can tell 10 cookies and 5 cookies apart from an early age. Where does this ability come from? Can babies tell numbers apart before they can speak? This study will help us understand what kind of number information draws babies' attention, and how babies' ability to see numbers develop over time. Specifically, we are asking how the ability to relate number information gathered from different sources (e.g., images and sounds) develops over the first few months of life."
+                            "text": "Babies prefer the larger amount when choosing for themselves. Do very young babies expect others to have the same preference for larger quantities as themselves? The current study will help us understand how we come to be able to figure out what other people want by examining what kind of events babies prefer to look at."
                         }
                     ]
                 },
                 {
                     "title": "Preview of what your baby will see",
                     "listblocks": [{
-                            "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
+                            "text": "Your baby will watch movies of a lady choosing different amounts. We are interested in what kind of events they prefer to look at!"
                         },
                         {
                             "text": "Below is a video of an example trial. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
@@ -253,7 +159,7 @@
                     "mediaBlock": {
                         "isVideo": true,
                         "sources": [{
-                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
+                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/test-5-10-less.mp4",
                             "type": "video/mp4"
                         }],
                         "mustPlay": false
