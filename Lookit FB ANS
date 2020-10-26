@@ -13,31 +13,7 @@
             "frameList": [{
                     "sources": "fam-5-10",
                     "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "fam-8-16",
-                    "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "fam-8-16",
-                    "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "fam-5-10",
-                    "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "fam-8-16",
-                    "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "fam-5-10",
-                    "altSources": [],
+                    "testCount": 4,
                     "calibrationLength": 2000
                 },
                 {
@@ -47,16 +23,6 @@
                 },
                 {
                     "sources": "VIDEO2",
-                    "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "VIDEO3",
-                    "altSources": [],
-                    "calibrationLength": 2000
-                },
-                {
-                    "sources": "VIDEO4",
                     "altSources": [],
                     "calibrationLength": 2000
                 },
@@ -71,27 +37,11 @@
             ],
             "parameterSets": [{
                     "VIDEO1": "test-5-10-more",
-                    "VIDEO2": "test-5-10-less",
-                    "VIDEO3": "test-8-16-less",
-                    "VIDEO4": "test-8-16-more"
+                    "VIDEO2": "test-5-10-less"
                 },
                 {
                     "VIDEO1": "test-5-10-less",
-                    "VIDEO2": "test-5-10-more",
-                    "VIDEO3": "test-8-16-more",
-                    "VIDEO4": "test-8-16-less"
-                },
-                {
-                    "VIDEO1": "test-8-16-more",
-                    "VIDEO2": "test-8-16-less",
-                    "VIDEO3": "test-5-10-less",
-                    "VIDEO4": "test-5-10-more"
-                },
-                {
-                    "VIDEO1": "test-8-16-less",
-                    "VIDEO2": "test-8-16-more",
-                    "VIDEO3": "test-5-10-more",
-                    "VIDEO4": "test-5-10-less"
+                    "VIDEO2": "test-5-10-more"
                 }
             ],
             "commonFrameProperties": {
@@ -99,7 +49,6 @@
                 "isLast": false,
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "testCount": 1,
-                "testLength": 20,
                 "audioTypes": [
                     "ogg",
                     "mp3"
