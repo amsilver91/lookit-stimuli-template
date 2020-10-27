@@ -133,58 +133,69 @@
                 {
                     "VIDEO1": "5 v 10",
                     "VIDEO2": "10 v 5",
-                    "VIDEO3": "12 v 4",
-                    "VIDEO4": "4 v 12",
+                    "VIDEO3": "9 v 6",
+                    "VIDEO4": "6 v 9",
                     "ALTVIDEO1": "10 v 5",
                     "ALTVIDEO2": "5 v 10",
-                    "ALTVIDEO3": "4 v 12",
-                    "ALTVIDEO4": "12 v 4",
+                    "ALTVIDEO3": "6 v 9",
+                    "ALTVIDEO4": "9 v 6",
                     "AUDIO01": "5",
                     "AUDIO02": "5",
-                    "AUDIO03": "4",
-                    "AUDIO04": "4"
+                    "AUDIO03": "6",
+                    "AUDIO04": "6"
                 },
                 {
                     "VIDEO1": "10 v 5",
                     "VIDEO2": "5 v 10",
-                    "VIDEO3": "4 v 12",
-                    "VIDEO4": "12 v 4",
+                    "VIDEO3": "6 v 9",
+                    "VIDEO4": "9 v 6",
                     "ALTVIDEO1": "5 v 10",
                     "ALTVIDEO2": "10 v 5",
-                    "ALTVIDEO3": "12 v 4",
-                    "ALTVIDEO4": "4 v 12",
+                    "ALTVIDEO3": "9 v 6",
+                    "ALTVIDEO4": "6 v 9",
                     "AUDIO01": "5",
                     "AUDIO02": "5",
-                    "AUDIO03": "4",
-                    "AUDIO04": "4"
+                    "AUDIO03": "6",
+                    "AUDIO04": "6"
                 },
                 {
                     "VIDEO1": "5 v 10",
                     "VIDEO2": "10 v 5",
-                    "VIDEO3": "12 v 4",
-                    "VIDEO4": "4 v 12",
+                    "VIDEO3": "9 v 6",
+                    "VIDEO4": "6 v 9",
                     "ALTVIDEO1": "10 v 5",
                     "ALTVIDEO2": "5 v 10",
-                    "ALTVIDEO3": "4 v 12",
-                    "ALTVIDEO4": "12 v 4",
+                    "ALTVIDEO3": "6 v 9",
+                    "ALTVIDEO4": "9 v 6",
                     "AUDIO01": "10",
                     "AUDIO02": "10",
-                    "AUDIO03": "12",
-                    "AUDIO04": "12"
+                    "AUDIO03": "9",
+                    "AUDIO04": "9"
                 },
                 {
                     "VIDEO1": "10 v 5",
                     "VIDEO2": "5 v 10",
-                    "VIDEO3": "4 v 12",
-                    "VIDEO4": "12 v 4",
+                    "VIDEO3": "6 v 9",
+                    "VIDEO4": "9 v 6",
                     "ALTVIDEO1": "5 v 10",
                     "ALTVIDEO2": "10 v 5",
-                    "ALTVIDEO3": "12 v 4",
-                    "ALTVIDEO4": "4 v 12",
+                    "ALTVIDEO3": "9 v 6",
+                    "ALTVIDEO4": "6 v 9",
                     "AUDIO01": "10",
                     "AUDIO02": "10",
-                    "AUDIO03": "12",
-                    "AUDIO04": "12"
+                    "AUDIO03": "9",
+                    "AUDIO04": "9"
+                }
+            ],
+            "parameterSetWeights": [{
+                    "minAge": 90,
+                    "maxAge": 209,
+                    "weights": [1, 1, 1, 1, 0, 0, 0, 0]
+                },
+                {
+                    "minAge": 210,
+                    "maxAge": 300,
+                    "weights": [0, 0, 0, 0, 1, 1, 1, 1]
                 }
             ],
             "commonFrameProperties": {
@@ -352,7 +363,8 @@
                 "mp3"
             ],
             "parentTextBlock": {
-                "Text": "Please try your best to ignore what's going on in the study so that your reaction does not influence your baby. Feel free to close your eyes and relax! The study takes about 5 minutes."
+                "Text": " in the study so that your reaction does not influence your baby. ",
+                "title": "Please try your best to ignore what's going on. Feel free to close your eyes and relax! The study takes about 5 minutes."
             },
             "autoProceed": true,
             "maximizeDisplay": true,
