@@ -3,7 +3,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart, even years before they start to count by themselves! \n\n The current study asks how this ability to match numbers across visual and auditory information develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10), compared to newborn babies. Additionally, we are asking if seeing easier comparisons (e.g., 4 vs. 12) before harder ones (e.g., 5 vs. 10) will help babies better focus on the number information, compared to the other way around. \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation! We will share with you a custom-made certificate (non-monetary) for your baby scientist's participation. The certificate will be shared approximately within 3 business days of your participation. To be eligible for the certificate, your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a certificate even if you do not finish the whole study or we are not able to use your child's data.",
+                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart, even years before they start to count by themselves! \n\n The current study asks how this ability to match numbers across visual and auditory information develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10), compared to newborn babies. Additionally, we are asking if seeing easier comparisons (e.g., 4 vs. 12) before harder ones (e.g., 5 vs. 10) will help babies better focus on the number information, compared to the other way around. To make sure that babies are not just attracted to one side of the screen, or the side with larger numbers, we switch around the side with more shapes and the side with the matching number of shapes across different trials and babies. \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation! We will share with you a custom-made certificate (non-monetary) for your baby scientist's participation. The certificate will be shared approximately within 3 business days of your participation. To be eligible for the certificate, your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a certificate even if you do not finish the whole study or we are not able to use your child's data.",
                 "title": "What was this study about?"
             }
         },
@@ -214,6 +214,46 @@
                     "AUDIO04": "10"
                 },
                 {
+                        "VIDEO3": "4 v 12",
+                        "VIDEO4": "12 v 4",
+                        "VIDEO1": "10 v 5",
+                        "VIDEO2": "5 v 10",
+                        "AUDIO03": "4",
+                        "AUDIO04": "4",
+                        "AUDIO01": "5",
+                        "AUDIO02": "5"
+                    },
+                    {
+                        "VIDEO3": "12 v 4",
+                        "VIDEO4": "4 v 12",
+                        "VIDEO1": "5 v 10",
+                        "VIDEO2": "10 v 5",
+                        "AUDIO03": "4",
+                        "AUDIO04": "4",
+                        "AUDIO01": "5",
+                        "AUDIO02": "5"
+                    },
+                    {
+                        "VIDEO3": "4 v 12",
+                        "VIDEO4": "12 v 4",
+                        "VIDEO1": "10 v 5",
+                        "VIDEO2": "5 v 10",
+                        "AUDIO03": "12",
+                        "AUDIO04": "12",
+                        "AUDIO01": "10",
+                        "AUDIO02": "10"
+                    },
+                    {
+                        "VIDEO3": "12 v 4",
+                        "VIDEO4": "4 v 12",
+                        "VIDEO1": "5 v 10",
+                        "VIDEO2": "10 v 5",
+                        "AUDIO03": "12",
+                        "AUDIO04": "12",
+                        "AUDIO01": "10",
+                        "AUDIO02": "10"
+                    },
+                {
                     "VIDEO1": "5 v 10",
                     "VIDEO2": "10 v 5",
                     "VIDEO3": "9 v 6",
@@ -252,17 +292,57 @@
                     "AUDIO02": "10",
                     "AUDIO03": "9",
                     "AUDIO04": "9"
+                },
+                {
+                    "VIDEO3": "5 v 10",
+                    "VIDEO4": "10 v 5",
+                    "VIDEO1": "9 v 6",
+                    "VIDEO2": "6 v 9",
+                    "AUDIO03": "5",
+                    "AUDIO04": "5",
+                    "AUDIO01": "6",
+                    "AUDIO02": "6"
+                },
+                {
+                    "VIDEO3": "10 v 5",
+                    "VIDEO4": "5 v 10",
+                    "VIDEO1": "6 v 9",
+                    "VIDEO2": "9 v 6",
+                    "AUDIO03": "5",
+                    "AUDIO04": "5",
+                    "AUDIO01": "6",
+                    "AUDIO02": "6"
+                },
+                {
+                    "VIDEO3": "5 v 10",
+                    "VIDEO4": "10 v 5",
+                    "VIDEO1": "9 v 6",
+                    "VIDEO2": "6 v 9",
+                    "AUDIO03": "10",
+                    "AUDIO04": "10",
+                    "AUDIO01": "9",
+                    "AUDIO02": "9"
+                },
+                {
+                    "VIDEO3": "10 v 5",
+                    "VIDEO4": "5 v 10",
+                    "VIDEO1": "6 v 9",
+                    "VIDEO2": "9 v 6",
+                    "AUDIO03": "10",
+                    "AUDIO04": "10",
+                    "AUDIO01": "9",
+                    "AUDIO02": "9"
                 }
             ],
             "parameterSetWeights": [{
                     "minAge": 90,
                     "maxAge": 209,
-                    "weights": [1, 1, 1, 1, 0, 0, 0, 0]
+                    "weights": [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
                 },
                 {
                     "minAge": 210,
                     "maxAge": 300,
-                    "weights": [0, 0, 0, 0, 1, 1, 1, 1]
+                    "weights": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
                 }
             ],
             "commonFrameProperties": {
