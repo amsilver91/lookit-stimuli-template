@@ -11,6 +11,9 @@
             "kind": "choice",
             "sampler": "random-parameter-set",
             "frameList": [
+            {
+                "kind": "exp-lookit-calibration"
+            },
                 {
                     "video": {
                         "source": "paw 21s m",
@@ -24,9 +27,6 @@
                         "loop": true
                     },
                     "requiredDuration": 20
-                },
-                {
-                    "kind": "exp-lookit-calibration"
                 },
                 {
                     "video": {
@@ -41,15 +41,7 @@
                     "requiredDuration": 20
                 },
                 {
-                    "video": {
-                        "source": "maruko 7s",
-                        "width": 30,
-                        "left": 35,
-                        "top": 25
-                    },
-                    "requiredDuration": 8,
-                    "requireVideoCount": 0,
-                    "doRecording": false
+                    "kind": "exp-lookit-calibration"
                 },
                 {
                     "video": {
@@ -64,9 +56,6 @@
                         "loop": true
                     },
                     "requiredDuration": 20
-                },
-                {
-                    "kind": "exp-lookit-calibration"
                 },
                 {
                     "video": {
@@ -91,6 +80,9 @@
                     "doRecording": false
                 },
                 {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
                     "video": {
                         "source": "paw 21s m",
                         "loop": true,
@@ -103,9 +95,6 @@
                         "loop": true
                     },
                     "requiredDuration": 20
-                },
-                {
-                    "kind": "exp-lookit-calibration"
                 },
                 {
                     "video": {
@@ -120,14 +109,7 @@
                     "requiredDuration": 20
                 },
                 {
-                    "video": {
-                        "source": "maruko 7s",
-                        "width": 30,
-                        "left": 35,
-                        "top": 25
-                    },
-                    "requiredDuration": 8,
-                    "doRecording": false
+                    "kind": "exp-lookit-calibration"
                 },
                 {
                     "video": {
@@ -142,9 +124,6 @@
                         "loop": true
                     },
                     "requiredDuration": 20
-                },
-                {
-                    "kind": "exp-lookit-calibration"
                 },
                 {
                     "video": {
@@ -439,7 +418,7 @@
                     "title": "Welcome to our study!",
                     "listblocks": [
                         {
-                            "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
+                            "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby. Meanwhile, please help us disconnect any external monitors you may have."
                         },
                         {
                             "text": "Children can tell 10 cookies and 5 cookies apart from an early age. Where does this ability come from? Can babies tell numbers apart before they can speak? This study will help us understand what kind of number information draws babies' attention, and how babies' ability to see numbers develop over time. Specifically, we are asking how the ability to relate number information gathered from different sources (e.g., images and sounds) develops over the first few months of life."
@@ -575,7 +554,7 @@
             ],
             "parentTextBlock": {
                 "Text": "Feel free to close your eyes in the study so that your reaction does not influence your baby. ",
-                "title": "Please try your best to ignore what's going on. Feel free to close your eyes and relax! The study takes about 5 minutes."
+                "title": "Please try your best to ignore what's going on. Feel free to close your eyes and relax!"
             },
             "autoProceed": true,
             "maximizeDisplay": true,
