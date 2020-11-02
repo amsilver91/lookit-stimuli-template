@@ -3,7 +3,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart, even years before they start to count by themselves! \n\n The current study asks how this ability to match numbers across visual and auditory information develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10), compared to newborn babies. Additionally, we are asking if seeing easier comparisons (e.g., 4 vs. 12) before harder ones (e.g., 5 vs. 10) will help babies better focus on the number information, compared to the other way around. To make sure that babies are not just attracted to one side of the screen, or the side with larger numbers, we switch around the side with more shapes and the side with the matching number of shapes across different trials and babies. \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation! We will share with you a custom-made certificate (non-monetary) for your baby scientist's participation. The certificate will be shared approximately within 3 business days of your participation. To be eligible for the certificate, your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a certificate even if you do not finish the whole study or we are not able to use your child's data.",
+                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart, even years before they start to count by themselves! \n\n The current study asks how this ability to match numbers across visual and auditory information develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10), compared to newborn babies. Additionally, we are asking if seeing easier comparisons (e.g., 4 vs. 12) before harder ones (e.g., 5 vs. 10) will help babies better focus on the number information, compared to the other way around. So sometimes babies see the easier comparisons first, sometimes babies see the harder ones first. To make sure that babies are not just attracted to one side of the screen, or the side with larger numbers, we switch around the side with more shapes and the side with the matching number of shapes across different trials and babies. \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation! We will share with you a custom-made certificate (non-monetary) for your baby scientist's participation. The certificate will be shared approximately within 3 business days of your participation. To be eligible for the certificate, your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a certificate even if you do not finish the whole study or we are not able to use your child's data.",
                 "title": "What was this study about?"
             }
         },
@@ -18,7 +18,7 @@
                         "width": 30,
                         "left": 35,
                         "top": 25
-                                            },
+                    },
                     "audio": {
                         "source": "AUDIO01",
                         "loop": true
@@ -58,7 +58,7 @@
                         "width": 30,
                         "left": 35,
                         "top": 25
-                                            },
+                    },
                     "audio": {
                         "source": "AUDIO02",
                         "loop": true
@@ -97,7 +97,7 @@
                         "width": 30,
                         "left": 35,
                         "top": 25
-                                            },
+                    },
                     "audio": {
                         "source": "AUDIO03",
                         "loop": true
@@ -136,7 +136,7 @@
                         "width": 30,
                         "left": 35,
                         "top": 25
-                                            },
+                    },
                     "audio": {
                         "source": "AUDIO04",
                         "loop": true
@@ -173,7 +173,8 @@
                     "requireAudioCount": 1
                 }
             ],
-            "parameterSets": [{
+            "parameterSets": [
+                {
                     "VIDEO1": "4 v 12",
                     "VIDEO2": "12 v 4",
                     "VIDEO3": "10 v 5",
@@ -214,45 +215,45 @@
                     "AUDIO04": "10"
                 },
                 {
-                        "VIDEO3": "4 v 12",
-                        "VIDEO4": "12 v 4",
-                        "VIDEO1": "10 v 5",
-                        "VIDEO2": "5 v 10",
-                        "AUDIO03": "4",
-                        "AUDIO04": "4",
-                        "AUDIO01": "5",
-                        "AUDIO02": "5"
-                    },
-                    {
-                        "VIDEO3": "12 v 4",
-                        "VIDEO4": "4 v 12",
-                        "VIDEO1": "5 v 10",
-                        "VIDEO2": "10 v 5",
-                        "AUDIO03": "4",
-                        "AUDIO04": "4",
-                        "AUDIO01": "5",
-                        "AUDIO02": "5"
-                    },
-                    {
-                        "VIDEO3": "4 v 12",
-                        "VIDEO4": "12 v 4",
-                        "VIDEO1": "10 v 5",
-                        "VIDEO2": "5 v 10",
-                        "AUDIO03": "12",
-                        "AUDIO04": "12",
-                        "AUDIO01": "10",
-                        "AUDIO02": "10"
-                    },
-                    {
-                        "VIDEO3": "12 v 4",
-                        "VIDEO4": "4 v 12",
-                        "VIDEO1": "5 v 10",
-                        "VIDEO2": "10 v 5",
-                        "AUDIO03": "12",
-                        "AUDIO04": "12",
-                        "AUDIO01": "10",
-                        "AUDIO02": "10"
-                    },
+                    "VIDEO3": "4 v 12",
+                    "VIDEO4": "12 v 4",
+                    "VIDEO1": "10 v 5",
+                    "VIDEO2": "5 v 10",
+                    "AUDIO03": "4",
+                    "AUDIO04": "4",
+                    "AUDIO01": "5",
+                    "AUDIO02": "5"
+                },
+                {
+                    "VIDEO3": "12 v 4",
+                    "VIDEO4": "4 v 12",
+                    "VIDEO1": "5 v 10",
+                    "VIDEO2": "10 v 5",
+                    "AUDIO03": "4",
+                    "AUDIO04": "4",
+                    "AUDIO01": "5",
+                    "AUDIO02": "5"
+                },
+                {
+                    "VIDEO3": "4 v 12",
+                    "VIDEO4": "12 v 4",
+                    "VIDEO1": "10 v 5",
+                    "VIDEO2": "5 v 10",
+                    "AUDIO03": "12",
+                    "AUDIO04": "12",
+                    "AUDIO01": "10",
+                    "AUDIO02": "10"
+                },
+                {
+                    "VIDEO3": "12 v 4",
+                    "VIDEO4": "4 v 12",
+                    "VIDEO1": "5 v 10",
+                    "VIDEO2": "10 v 5",
+                    "AUDIO03": "12",
+                    "AUDIO04": "12",
+                    "AUDIO01": "10",
+                    "AUDIO02": "10"
+                },
                 {
                     "VIDEO1": "5 v 10",
                     "VIDEO2": "10 v 5",
@@ -334,29 +335,65 @@
                     "AUDIO02": "9"
                 }
             ],
-            "parameterSetWeights": [{
+            "parameterSetWeights": [
+                {
                     "minAge": 90,
                     "maxAge": 209,
-                    "weights": [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+                    "weights": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
                 },
                 {
                     "minAge": 210,
                     "maxAge": 300,
-                    "weights": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+                    "weights": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
                 }
             ],
             "commonFrameProperties": {
                 "kind": "exp-lookit-video",
-
-                "audioTypes": ["mp3"],
-                "videoTypes": ["mp4"],
+                "audioTypes": [
+                    "mp3"
+                ],
+                "videoTypes": [
+                    "mp4"
+                ],
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
-
                 "doRecording": true,
-
+                "showWaitForRecordingMessage": false,
                 "backgroundColor": "white",
                 "autoProceed": true,
-
                 "restartAfterPause": true,
                 "pauseKey": " ",
                 "pauseKeyDescription": "space",
@@ -364,18 +401,17 @@
                 "pauseVideo": "paw 21s m",
                 "pauseText": "(You'll have a moment to turn around again.)",
                 "unpauseAudio": "return_after_pause",
-
                 "calibrationAudio": "chimes",
                 "calibrationVideo": "attractor",
                 "calibrationPositions": [
-                    "left", "right", "center"
+                    "left",
+                    "right",
+                    "center"
                 ],
                 "calibrationLength": 2000,
-
                 "requiredDuration": 0,
                 "requireVideoCount": 0,
                 "requireAudioCount": 0
-
             }
         },
         "video-config": {
@@ -398,9 +434,11 @@
         },
         "instructions-1": {
             "kind": "exp-lookit-instructions",
-            "blocks": [{
+            "blocks": [
+                {
                     "title": "Welcome to our study!",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
                         },
                         {
@@ -410,25 +448,30 @@
                 },
                 {
                     "title": "Preview of what your baby will see",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
                         },
                         {
-                            "text": "Below is a video of an example trial. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
+                            "text": "Below is a video of an example trial. In addition to the different numbers of shapes and sounds, we will also show your baby cartoons and music in between trials to attract their attention back to the screen. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
                         }
                     ],
                     "mediaBlock": {
                         "isVideo": true,
-                        "sources": [{
-                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
-                            "type": "video/mp4"
-                        }],
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
+                                "type": "video/mp4",
+                                "width": 30
+                            }
+                        ],
                         "mustPlay": false
                     }
                 },
                 {
                     "title": "Next steps",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "First, we will make sure that your webcam is setup for the study."
                         },
                         {
@@ -436,6 +479,9 @@
                         },
                         {
                             "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
+                        },
+                        {
+                            "text": "During the study, if you'd like a short break, please press the Spacebar. If you'd like to stop the study completely, it’s ok to leave early by pressing ctrl-X or closing the tab."
                         }
                     ]
                 }
@@ -445,11 +491,13 @@
         },
         "instructions-setup-highchair": {
             "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "setup",
-                "src": "Setup.jpg",
-                "position": "fill"
-            }],
+            "images": [
+                {
+                    "id": "setup",
+                    "src": "Setup.jpg",
+                    "position": "fill"
+                }
+            ],
             "audio": "setupbaby",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
@@ -466,11 +514,13 @@
         },
         "instructions-setup-laps": {
             "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "laps",
-                "src": "Laps.jpg",
-                "position": "fill"
-            }],
+            "images": [
+                {
+                    "id": "laps",
+                    "src": "Laps.jpg",
+                    "position": "fill"
+                }
+            ],
             "audio": "setupbabylap",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
@@ -487,19 +537,22 @@
         },
         "instructions-webcam": {
             "kind": "exp-lookit-webcam-display",
-            "blocks": [{
-                "title": "It's time to get your baby and check the webcam setup!",
-                "listblocks": [{
-                        "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
-                    },
-                    {
-                        "image": {
-                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
-                            "position": "center"
+            "blocks": [
+                {
+                    "title": "It's time to get your baby and check the webcam setup!",
+                    "listblocks": [
+                        {
+                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
+                        },
+                        {
+                            "image": {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
+                                "position": "center"
+                            }
                         }
-                    }
-                ]
-            }],
+                    ]
+                }
+            ],
             "nextButtonText": "My baby and I are in position & ready to start!",
             "showPreviousButton": true,
             "displayFullscreenOverride": true,
@@ -507,11 +560,13 @@
         },
         "start-experiment": {
             "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "ready",
-                "src": "numbers.jpg",
-                "position": "fill"
-            }],
+            "images": [
+                {
+                    "id": "ready",
+                    "src": "numbers.jpg",
+                    "position": "fill"
+                }
+            ],
             "audio": "study-begin",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "gray",
