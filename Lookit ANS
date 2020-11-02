@@ -3,75 +3,174 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart! \n\n The current study asks how this ability to tell numbers apart develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10) as well! \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation! We will share with you a custom-made certificate (non-monetary) for your baby scientist's participation. The certificate will be shared approximately within 3 days of your participation. To be eligible for the certificate, your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a certificate even if you do not finish the whole study or we are not able to use your child's data.",
+                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart, even years before they start to count by themselves! \n\n The current study asks how this ability to match numbers across visual and auditory information develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10), compared to newborn babies. Additionally, we are asking if seeing easier comparisons (e.g., 4 vs. 12) before harder ones (e.g., 5 vs. 10) will help babies better focus on the number information, compared to the other way around. \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation! We will share with you a custom-made certificate (non-monetary) for your baby scientist's participation. The certificate will be shared approximately within 3 business days of your participation. To be eligible for the certificate, your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a certificate even if you do not finish the whole study or we are not able to use your child's data.",
                 "title": "What was this study about?"
             }
         },
         "test-trials": {
             "kind": "choice",
             "sampler": "random-parameter-set",
-            "frameList": [{
-                    "sources": "VIDEO1",
-                    "altSources": "ALTVIDEO1",
-                    "audioSources": "AUDIO01",
-                    "musicSources": "AUDIO01",
-                    "calibrationLength": 2000
+            "frameList": [
+                {
+                    "video": {
+                        "source": "paw 21s m",
+                        "loop": true,
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                                            },
+                    "audio": {
+                        "source": "AUDIO01",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
                 },
                 {
-                    "attnSources": "maruko 7s",
-                    "announceLength": 8,
-                    "Sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": [],
-                    "calibrationLength": 0
+                    "kind": "exp-lookit-calibration"
                 },
                 {
-                    "sources": "VIDEO2",
-                    "altSources": "ALTVIDEO2",
-                    "audioSources": "AUDIO02",
-                    "musicSources": "AUDIO02",
-                    "calibrationLength": 2000
+                    "video": {
+                        "source": "VIDEO1",
+                        "loop": true,
+                        "position": "fill"
+                    },
+                    "audio": {
+                        "source": "AUDIO01",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
                 },
                 {
-                    "attnSources": "maruko 7s",
-                    "announceLength": 8,
-                    "Sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": [],
-                    "calibrationLength": 0
+                    "video": {
+                        "source": "maruko 7s",
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                    },
+                    "requiredDuration": 8,
+                    "requireVideoCount": 0,
+                    "doRecording": false
                 },
                 {
-                    "sources": "VIDEO3",
-                    "altSources": "ALTVIDEO3",
-                    "audioSources": "AUDIO03",
-                    "musicSources": "AUDIO03",
-                    "calibrationLength": 2000
+                    "video": {
+                        "source": "paw 21s m",
+                        "loop": true,
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                                            },
+                    "audio": {
+                        "source": "AUDIO02",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
                 },
                 {
-                    "attnSources": "maruko 7s",
-                    "announceLength": 8,
-                    "Sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": [],
-                    "calibrationLength": 0
+                    "kind": "exp-lookit-calibration"
                 },
                 {
-                    "sources": "VIDEO4",
-                    "altSources": "ALTVIDEO4",
-                    "audioSources": "AUDIO04",
-                    "musicSources": "AUDIO04",
-                    "calibrationLength": 2000
+                    "video": {
+                        "source": "VIDEO2",
+                        "loop": true,
+                        "position": "fill"
+                    },
+                    "audio": {
+                        "source": "AUDIO02",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
                 },
                 {
-                    "attnSources": "Youarealldone",
-                    "Sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": "Youarealldone",
-                    "calibrationLength": 0
+                    "video": {
+                        "source": "maruko 7s",
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                    },
+                    "requiredDuration": 8,
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "source": "paw 21s m",
+                        "loop": true,
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                                            },
+                    "audio": {
+                        "source": "AUDIO03",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "VIDEO3",
+                        "loop": true,
+                        "position": "fill"
+                    },
+                    "audio": {
+                        "source": "AUDIO03",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
+                },
+                {
+                    "video": {
+                        "source": "maruko 7s",
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                    },
+                    "requiredDuration": 8,
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "source": "paw 21s m",
+                        "loop": true,
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                                            },
+                    "audio": {
+                        "source": "AUDIO04",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "VIDEO4",
+                        "loop": true,
+                        "position": "fill"
+                    },
+                    "audio": {
+                        "source": "AUDIO04",
+                        "loop": true
+                    },
+                    "requiredDuration": 20
+                },
+                {
+                    "video": {
+                        "source": "Youarealldone",
+                        "loop": true,
+                        "width": 50,
+                        "top": 20,
+                        "left": 25
+                    },
+                    "audio": {
+                        "source": "Youarealldone",
+                        "loop": false
+                    },
+                    "requireAudioCount": 1
                 }
             ],
             "parameterSets": [{
@@ -79,10 +178,6 @@
                     "VIDEO2": "12 v 4",
                     "VIDEO3": "10 v 5",
                     "VIDEO4": "5 v 10",
-                    "ALTVIDEO1": "12 v 4",
-                    "ALTVIDEO2": "4 v 12",
-                    "ALTVIDEO3": "5 v 10",
-                    "ALTVIDEO4": "10 v 5",
                     "AUDIO01": "4",
                     "AUDIO02": "4",
                     "AUDIO03": "5",
@@ -93,10 +188,6 @@
                     "VIDEO2": "4 v 12",
                     "VIDEO3": "5 v 10",
                     "VIDEO4": "10 v 5",
-                    "ALTVIDEO1": "4 v 12",
-                    "ALTVIDEO2": "12 v 4",
-                    "ALTVIDEO3": "10 v 5",
-                    "ALTVIDEO4": "5 v 10",
                     "AUDIO01": "4",
                     "AUDIO02": "4",
                     "AUDIO03": "5",
@@ -107,10 +198,6 @@
                     "VIDEO2": "12 v 4",
                     "VIDEO3": "10 v 5",
                     "VIDEO4": "5 v 10",
-                    "ALTVIDEO1": "12 v 4",
-                    "ALTVIDEO2": "4 v 12",
-                    "ALTVIDEO3": "5 v 10",
-                    "ALTVIDEO4": "10 v 5",
                     "AUDIO01": "12",
                     "AUDIO02": "12",
                     "AUDIO03": "10",
@@ -121,10 +208,6 @@
                     "VIDEO2": "4 v 12",
                     "VIDEO3": "5 v 10",
                     "VIDEO4": "10 v 5",
-                    "ALTVIDEO1": "4 v 12",
-                    "ALTVIDEO2": "12 v 4",
-                    "ALTVIDEO3": "10 v 5",
-                    "ALTVIDEO4": "5 v 10",
                     "AUDIO01": "12",
                     "AUDIO02": "12",
                     "AUDIO03": "10",
@@ -135,10 +218,6 @@
                     "VIDEO2": "10 v 5",
                     "VIDEO3": "9 v 6",
                     "VIDEO4": "6 v 9",
-                    "ALTVIDEO1": "10 v 5",
-                    "ALTVIDEO2": "5 v 10",
-                    "ALTVIDEO3": "6 v 9",
-                    "ALTVIDEO4": "9 v 6",
                     "AUDIO01": "5",
                     "AUDIO02": "5",
                     "AUDIO03": "6",
@@ -149,10 +228,6 @@
                     "VIDEO2": "5 v 10",
                     "VIDEO3": "6 v 9",
                     "VIDEO4": "9 v 6",
-                    "ALTVIDEO1": "5 v 10",
-                    "ALTVIDEO2": "10 v 5",
-                    "ALTVIDEO3": "9 v 6",
-                    "ALTVIDEO4": "6 v 9",
                     "AUDIO01": "5",
                     "AUDIO02": "5",
                     "AUDIO03": "6",
@@ -163,10 +238,6 @@
                     "VIDEO2": "10 v 5",
                     "VIDEO3": "9 v 6",
                     "VIDEO4": "6 v 9",
-                    "ALTVIDEO1": "10 v 5",
-                    "ALTVIDEO2": "5 v 10",
-                    "ALTVIDEO3": "6 v 9",
-                    "ALTVIDEO4": "9 v 6",
                     "AUDIO01": "10",
                     "AUDIO02": "10",
                     "AUDIO03": "9",
@@ -177,10 +248,6 @@
                     "VIDEO2": "5 v 10",
                     "VIDEO3": "6 v 9",
                     "VIDEO4": "9 v 6",
-                    "ALTVIDEO1": "5 v 10",
-                    "ALTVIDEO2": "10 v 5",
-                    "ALTVIDEO3": "9 v 6",
-                    "ALTVIDEO4": "6 v 9",
                     "AUDIO01": "10",
                     "AUDIO02": "10",
                     "AUDIO03": "9",
@@ -199,27 +266,36 @@
                 }
             ],
             "commonFrameProperties": {
-                "kind": "exp-lookit-composite-video-trial",
-                "isLast": false,
+                "kind": "exp-lookit-video",
+
+                "audioTypes": ["mp3"],
+                "videoTypes": ["mp4"],
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
-                "testCount": 1,
-                "testLength": 20,
-                "audioTypes": [
-                    "ogg",
-                    "mp3"
-                ],
+
+                "doRecording": true,
+
+                "backgroundColor": "white",
+                "autoProceed": true,
+
+                "restartAfterPause": true,
+                "pauseKey": " ",
+                "pauseKeyDescription": "space",
                 "pauseAudio": "pause",
-                "videoTypes": [
-                    "mov",
-                    "mp4"
-                ],
-                "attnSources": "paw 21s m",
+                "pauseVideo": "paw 21s m",
+                "pauseText": "(You'll have a moment to turn around again.)",
                 "unpauseAudio": "return_after_pause",
-                "calibrationAudioSources": "chimes",
-                "calibrationVideoSources": "attractor",
+
+                "calibrationAudio": "chimes",
+                "calibrationVideo": "attractor",
                 "calibrationPositions": [
                     "left", "right", "center"
-                ]
+                ],
+                "calibrationLength": 2000,
+
+                "requiredDuration": 0,
+                "requireVideoCount": 0,
+                "requireAudioCount": 0
+
             }
         },
         "video-config": {
@@ -233,7 +309,7 @@
             "datause": [],
             "purpose": "This study is part of a larger research program aiming to understand how infants and children are able to learn so much about the different objects and people they encounter in the world around them. ",
             "template": "consent_003",
-            "PIContact": "Elizabeth Bonawitz - child.research@psych.rutgers.edu",
+            "PIContact": "Elizabeth Bonawitz & Jenny Wang - child.research@psych.rutgers.edu",
             "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world. Please note that you and your child are NOT being evaluated academically or psychologically, we are simply conducting basic research.",
             "institution": "Rutgers University",
             "payment": "There are no foreseeable risks to participation in this study. While participation in this research provides no direct benefit to you or your child, the results will help us learn about children’s cognitive development. Thank you for taking part!",
@@ -373,11 +449,6 @@
     },
     "sequence": [
         "instructions-1",
-        "video-config",
-        "video-consent",
-        "instructions-setup-laps",
-        "instructions-webcam",
-        "start-experiment",
         "test-trials",
         "exit-survey"
     ]
