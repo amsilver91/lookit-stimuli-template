@@ -14,9 +14,10 @@
                 {
                     "video": {
                         "source": "flowers",
-                        "loop": false,
+                        "loop": true,
                         "position": "fill"
-                    }
+                    },
+                    "requiredDuration": 10
                 },
                 {
                     "video": {
