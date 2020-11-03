@@ -10,8 +10,7 @@
         "test-trials": {
             "kind": "choice",
             "sampler": "random-parameter-set",
-            "frameList": [
-                {
+            "frameList": [{
                     "kind": "exp-lookit-calibration"
                 },
                 {
@@ -152,8 +151,7 @@
                     "requireAudioCount": 1
                 }
             ],
-            "parameterSets": [
-                {
+            "parameterSets": [{
                     "VIDEO1": "4 v 12",
                     "VIDEO2": "12 v 4",
                     "VIDEO3": "10 v 5",
@@ -474,8 +472,7 @@
                     "AUDIO02": "9n"
                 }
             ],
-            "parameterSetWeights": [
-                {
+            "parameterSetWeights": [{
                     "minAge": 90,
                     "maxAge": 209,
                     "weights": [
@@ -562,8 +559,8 @@
                 ],
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "doRecording": true,
-                "showWaitForRecordingMessage": false,
-                "backgroundColor": "white",
+                "waitForRecordingMessage": "<img src='http: //sites.sas.rutgers.edu/cognition/images/logotext.png' height=30% /img>",
+                    "backgroundColor": "white",
                 "autoProceed": true,
                 "restartAfterPause": true,
                 "pauseKey": " ",
@@ -605,15 +602,13 @@
         },
         "instructions-1": {
             "kind": "exp-lookit-instructions",
-            "blocks": [
-                {
+            "blocks": [{
                     "title": "Welcome to our study!",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby. "
                         },
                         {
-                        "text":"Meanwhile, please help us disconnect any external monitors you may have."
+                            "text": "Meanwhile, please help us disconnect any external monitors you may have."
                         },
                         {
                             "text": "In this study, your baby will hear different numbers of sounds, and watch different movies with different numbers of shapes in them. We are interested in how well babies can match the numbers they hear to the numbers they see."
@@ -622,8 +617,7 @@
                 },
                 {
                     "title": "Preview of what your baby will see",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
                         },
                         {
@@ -632,20 +626,17 @@
                     ],
                     "mediaBlock": {
                         "isVideo": true,
-                        "sources": [
-                            {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
-                                "type": "video/mp4",
-                                "width": 30
-                            }
-                        ],
+                        "sources": [{
+                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
+                            "type": "video/mp4",
+                            "width": 30
+                        }],
                         "mustPlay": false
                     }
                 },
                 {
                     "title": "Next steps",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "First, we will make sure that your webcam is setup for the study."
                         },
                         {
@@ -665,13 +656,11 @@
         },
         "instructions-setup-highchair": {
             "kind": "exp-lookit-images-audio",
-            "images": [
-                {
-                    "id": "setup",
-                    "src": "Setup.jpg",
-                    "position": "fill"
-                }
-            ],
+            "images": [{
+                "id": "setup",
+                "src": "Setup.jpg",
+                "position": "fill"
+            }],
             "audio": "setupbaby",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
@@ -688,13 +677,11 @@
         },
         "instructions-setup-laps": {
             "kind": "exp-lookit-images-audio",
-            "images": [
-                {
-                    "id": "laps",
-                    "src": "Laps.jpg",
-                    "position": "fill"
-                }
-            ],
+            "images": [{
+                "id": "laps",
+                "src": "Laps.jpg",
+                "position": "fill"
+            }],
             "audio": "setupbabylap",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
@@ -711,22 +698,19 @@
         },
         "instructions-webcam": {
             "kind": "exp-lookit-webcam-display",
-            "blocks": [
-                {
-                    "title": "It's time to get your baby and check the webcam setup!",
-                    "listblocks": [
-                        {
-                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
-                        },
-                        {
-                            "image": {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
-                                "position": "center"
-                            }
+            "blocks": [{
+                "title": "It's time to get your baby and check the webcam setup!",
+                "listblocks": [{
+                        "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
+                    },
+                    {
+                        "image": {
+                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
+                            "position": "center"
                         }
-                    ]
-                }
-            ],
+                    }
+                ]
+            }],
             "nextButtonText": "My baby and I are in position & ready to start!",
             "showPreviousButton": true,
             "displayFullscreenOverride": true,
@@ -734,13 +718,11 @@
         },
         "start-experiment": {
             "kind": "exp-lookit-images-audio",
-            "images": [
-                {
-                    "id": "ready",
-                    "src": "numbers.jpg",
-                    "position": "fill"
-                }
-            ],
+            "images": [{
+                "id": "ready",
+                "src": "numbers.jpg",
+                "position": "fill"
+            }],
             "audio": "study-begin",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "gray",

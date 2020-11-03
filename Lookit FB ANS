@@ -10,32 +10,53 @@
         "test-trials": {
             "kind": "choice",
             "sampler": "random-parameter-set",
-            "frameList": [{
-                    "sources": "fam-5-10",
-                    "altSources": [],
-                    "testCount": 4,
-                    "calibrationLength": 2000
+            "frameList": [
+                {
+                    "video": {
+                        "source": "flowers",
+                        "loop": false,
+                        "position": "fill"
+                    }
                 },
                 {
-                    "sources": "VIDEO1",
-                    "altSources": [],
-                    "calibrationLength": 2000
+                    "video": {
+                        "source": "fam-5-10",
+                        "loop": false,
+                        "position": "fill"
+                    },
+                    "requireVideoCount": 4
                 },
                 {
-                    "sources": "VIDEO2",
-                    "altSources": [],
-                    "calibrationLength": 2000
+                    "video": {
+                        "source": "VIDEO01",
+                        "loop": false,
+                        "position": "fill"
+                    }
                 },
                 {
-                    "attnSources": "Youarealldone",
-                    "Sources": [],
-                    "altSources": [],
-                    "doRecording": false,
-                    "audioSources": "Youarealldone",
-                    "calibrationLength": 0
+                    "video": {
+                        "source": "VIDEO02",
+                        "loop": false,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "source": "Youarealldone",
+                        "loop": true,
+                        "width": 50,
+                        "top": 20,
+                        "left": 25
+                    },
+                    "audio": {
+                        "source": "Youarealldone",
+                        "loop": false
+                    },
+                    "requireAudioCount": 1
                 }
             ],
-            "parameterSets": [{
+            "parameterSets": [
+                {
                     "VIDEO1": "test-5-10-more",
                     "VIDEO2": "test-5-10-less"
                 },
@@ -45,25 +66,36 @@
                 }
             ],
             "commonFrameProperties": {
-                "kind": "exp-lookit-composite-video-trial",
-                "isLast": false,
-                "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
-                "testCount": 1,
+                "kind": "exp-lookit-video",
                 "audioTypes": [
-                    "ogg",
                     "mp3"
                 ],
-                "pauseAudio": "pause",
                 "videoTypes": [
-                    "mov",
                     "mp4"
                 ],
+                "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+                "doRecording": true,
+                "waitForRecordingMessage": "<img src='http: //sites.sas.rutgers.edu/cognition/images/logotext.png' height=30% /img>",
+                "backgroundColor": "white",
+                "autoProceed": true,
+                "restartAfterPause": true,
+                "pauseKey": " ",
+                "pauseKeyDescription": "space",
+                "pauseAudio": "pause",
+                "pauseVideo": "paw 21s m",
+                "pauseText": "(You'll have a moment to turn around again.)",
                 "unpauseAudio": "return_after_pause",
-                "calibrationAudioSources": "chimes",
-                "calibrationVideoSources": "attractor",
+                "calibrationAudio": "chimes",
+                "calibrationVideo": "attractor",
                 "calibrationPositions": [
-                    "left", "right", "center"
-                ]
+                    "left",
+                    "right",
+                    "center"
+                ],
+                "calibrationLength": 2000,
+                "requiredDuration": 0,
+                "requireVideoCount": 0,
+                "requireAudioCount": 0
             }
         },
         "video-config": {
@@ -77,7 +109,7 @@
             "datause": [],
             "purpose": "This study is part of a larger research program aiming to understand how infants and children are able to learn so much about the different objects and people they encounter in the world around them. ",
             "template": "consent_003",
-            "PIContact": "Elizabeth Bonawitz - child.research@psych.rutgers.edu",
+            "PIContact": "Elizabeth Bonawitz & Jenny Wang - child.research@psych.rutgers.edu",
             "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world. Please note that you and your child are NOT being evaluated academically or psychologically, we are simply conducting basic research.",
             "institution": "Rutgers University",
             "payment": "There are no foreseeable risks to participation in this study. While participation in this research provides no direct benefit to you or your child, the results will help us learn about children’s cognitive development. Thank you for taking part!",
@@ -86,37 +118,47 @@
         },
         "instructions-1": {
             "kind": "exp-lookit-instructions",
-            "blocks": [{
+            "blocks": [
+                {
                     "title": "Welcome to our study!",
-                    "listblocks": [{
-                            "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby."
+                    "listblocks": [
+                        {
+                            "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby. "
                         },
                         {
-                            "text": "Babies prefer the larger amount when choosing for themselves. Do very young babies expect others to have the same preference for larger quantities as themselves? The current study will help us understand how we come to be able to figure out what other people want by examining what kind of events babies prefer to look at."
+                            "text": "Meanwhile, please help us disconnect any external monitors you may have."
+                        },
+                        {
+                            "text": "In this study, your baby will hear different numbers of sounds, and watch different movies with different numbers of shapes in them. We are interested in how well babies can match the numbers they hear to the numbers they see."
                         }
                     ]
                 },
                 {
                     "title": "Preview of what your baby will see",
-                    "listblocks": [{
-                            "text": "Your baby will watch movies of a lady choosing different amounts. We are interested in what kind of events they prefer to look at!"
+                    "listblocks": [
+                        {
+                            "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
                         },
                         {
-                            "text": "Below is a video of an example trial. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
+                            "text": "Below is a video of an example trial. In addition to the different numbers of shapes and sounds, we will also show your baby cartoons and music in between trials to attract their attention back to the screen. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
                         }
                     ],
                     "mediaBlock": {
                         "isVideo": true,
-                        "sources": [{
-                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/test-5-10-less.mp4",
-                            "type": "video/mp4"
-                        }],
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/test-5-10-more.mp4",
+                                "type": "video/mp4",
+                                "width": 30
+                            }
+                        ],
                         "mustPlay": false
                     }
                 },
                 {
                     "title": "Next steps",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "First, we will make sure that your webcam is setup for the study."
                         },
                         {
@@ -124,6 +166,9 @@
                         },
                         {
                             "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
+                        },
+                        {
+                            "text": "During the study, if you'd like a short break, please press the Spacebar. If you'd like to stop the study completely, it’s ok to leave early by pressing ctrl-X or closing the tab."
                         }
                     ]
                 }
@@ -133,11 +178,13 @@
         },
         "instructions-setup-highchair": {
             "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "setup",
-                "src": "Setup.jpg",
-                "position": "fill"
-            }],
+            "images": [
+                {
+                    "id": "setup",
+                    "src": "Setup.jpg",
+                    "position": "fill"
+                }
+            ],
             "audio": "setupbaby",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
@@ -154,11 +201,13 @@
         },
         "instructions-setup-laps": {
             "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "laps",
-                "src": "Laps.jpg",
-                "position": "fill"
-            }],
+            "images": [
+                {
+                    "id": "laps",
+                    "src": "Laps.jpg",
+                    "position": "fill"
+                }
+            ],
             "audio": "setupbabylap",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
@@ -175,19 +224,22 @@
         },
         "instructions-webcam": {
             "kind": "exp-lookit-webcam-display",
-            "blocks": [{
-                "title": "It's time to get your baby and check the webcam setup!",
-                "listblocks": [{
-                        "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
-                    },
-                    {
-                        "image": {
-                            "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
-                            "position": "center"
+            "blocks": [
+                {
+                    "title": "It's time to get your baby and check the webcam setup!",
+                    "listblocks": [
+                        {
+                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
+                        },
+                        {
+                            "image": {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
+                                "position": "center"
+                            }
                         }
-                    }
-                ]
-            }],
+                    ]
+                }
+            ],
             "nextButtonText": "My baby and I are in position & ready to start!",
             "showPreviousButton": true,
             "displayFullscreenOverride": true,
@@ -195,11 +247,13 @@
         },
         "start-experiment": {
             "kind": "exp-lookit-images-audio",
-            "images": [{
-                "id": "ready",
-                "src": "numbers.jpg",
-                "position": "fill"
-            }],
+            "images": [
+                {
+                    "id": "ready",
+                    "src": "numbers.jpg",
+                    "position": "fill"
+                }
+            ],
             "audio": "study-begin",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "gray",
@@ -207,7 +261,8 @@
                 "mp3"
             ],
             "parentTextBlock": {
-            "Text": "Please try your best to ignore what's going on in the study so that your reaction does not influence your baby. Feel free to close your eyes and relax! The study takes about 5 minutes."
+                "Text": "Feel free to close your eyes in the study so that your reaction does not influence your baby. ",
+                "title": "Please try your best to ignore what's going on. Feel free to close your eyes and relax!"
             },
             "autoProceed": true,
             "maximizeDisplay": true,
