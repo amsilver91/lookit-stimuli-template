@@ -1,0 +1,306 @@
+{
+    "frames": {
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "In this study, we are interested in whether babies can match how many things they see to how many sounds they hear. We study this ability by measuring where babies look. For example, <a href='https://www.pnas.org/content/106/25/10382' rel='noreferrer noopener external nofollow' target='_blank'>a previous study</a> showed that when newborn babies hear series of 4 sounds, they tend to look longer at pictures of 4 shapes, compared to 12 shapes. This tells us that babies can already tell 4 and 12 apart, even years before they start to count by themselves! \n\n The current study asks how this ability to match numbers across visual and auditory information develops early in infancy. Specifically, babies that are about the age of your baby might have more precise numerical abilities, and they might be able to tell apart numbers that are closer together (such as 5 vs. 10), compared to newborn babies. Additionally, we are asking if seeing easier comparisons (e.g., 4 vs. 12) before harder ones (e.g., 5 vs. 10) will help babies better focus on the number information, as well as whether social information (such as faces and voices) help babies attend to number. So sometimes babies see the easier comparisons first, sometimes babies see the harder ones first; sometimes babies see faces and hear voices, some times babies see shapes and hear tones. To make sure that babies are not just attracted to one side of the screen, or the side with larger numbers, we switch around the side with more shapes and the side with the matching number of shapes across different trials and babies. \n\n This research wouldn’t be possible without awesome parents like you. Thank you again for your participation!",
+                "title": "What was this study about?"
+            }
+        },
+        "test-trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "VIDEO1",
+                        "loop": true,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "VIDEO2",
+                        "loop": true,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "source": "maruko 7s",
+                        "width": 30,
+                        "left": 35,
+                        "top": 25
+                    },
+                    "requiredDuration": 8,
+                    "doRecording": false
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "VIDEO3",
+                        "loop": true,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "VIDEO4",
+                        "loop": true,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "source": "Youarealldone",
+                        "loop": true,
+                        "width": 50,
+                        "top": 20,
+                        "left": 25
+                    },
+                    "audio": {
+                        "source": "Youarealldone",
+                        "loop": false
+                    },
+                    "requireAudioCount": 1,
+                    "doRecording": false
+                }
+            ],
+            "parameterSets": [
+                {
+                    "VIDEO1": "count_pig_2",
+                    "VIDEO2": "count_pig_4",
+                    "VIDEO3": "count_pig_2",
+                    "VIDEO4": "count_pig_4"
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-video",
+                "audioTypes": [
+                    "mp3"
+                ],
+                "videoTypes": [
+                    "ogg"
+                ],
+                "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+                "doRecording": true,
+                "showWaitForRecordingMessage": true,
+                "showWaitForUploadImage": true,
+                "waitForRecordingMessage": "",
+                "waitForUploadMessage": "",
+                "waitForUploadImage": "seenumbers.png",
+                "backgroundColor": "white",
+                "autoProceed": true,
+                "restartAfterPause": true,
+                "pauseKey": " ",
+                "pauseKeyDescription": "space",
+                "pauseAudio": "pause",
+                "pauseVideo": "paw 21s m",
+                "pauseText": "(You'll have a moment to turn around again.)",
+                "unpauseAudio": "return_after_pause",
+                "calibrationAudio": "chimes",
+                "calibrationVideo": "attractor",
+                "calibrationPositions": [
+                    "left",
+                    "right",
+                    "center"
+                ],
+                "calibrationLength": 2000,
+                "requiredDuration": 0,
+                "requireVideoCount": 0,
+                "requireAudioCount": 0
+            }
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact us at child.research@psych.rutgers.edu and we'd be glad to help you out!"
+        },
+        "video-consent": {
+            "gdpr": false,
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Elizabeth Bonawitz",
+            "datause": [],
+            "purpose": "This study is part of a larger research program aiming to understand how infants and children are able to learn so much about the different objects and people they encounter in the world around them. ",
+            "template": "consent_003",
+            "PIContact": "Elizabeth Bonawitz & Jenny Wang - child.research@psych.rutgers.edu",
+            "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world. Please note that you and your child are NOT being evaluated academically or psychologically, we are simply conducting basic research.",
+            "institution": "Rutgers University",
+            "payment": "There are no foreseeable risks to participation in this study. While participation in this research provides no direct benefit to you or your child, the results will help us learn about children’s cognitive development. Thank you for taking part!",
+            "additional_segments": [],
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Rutgers IRB Director at: Arts and Sciences IRB, 335 George St., Liberty Plaza Ste. 3200, New Brunswick, NJ 08901 (732) 235-2866 or the Rutgers Human Subjects Protection Program at (973) 972-1149, email us at humansubjects@ored.rutgers.edu or write us at 65 Bergen St., Suite 507, Newark, NJ 07107."
+        },
+        "instructions-1": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Welcome to our study!",
+                    "listblocks": [
+                        {
+                            "text": "<strong>Your baby does not need to be with you yet.</strong> We will tell you when it is time to get your baby. "
+                        },
+                        {
+                            "text": "Meanwhile, please help us disconnect any external monitors you may have."
+                        },
+                        {
+                            "text": "In this study, your baby will hear different numbers of sounds, and watch different movies with different numbers of shapes in them. We are interested in how well babies can match the numbers they hear to the numbers they see."
+                        }
+                    ]
+                },
+                {
+                    "title": "Preview of what your baby will see",
+                    "listblocks": [
+                        {
+                            "text": "Your baby will hear streams of sounds, paired with different numbers of shapes. We are interested in where they choose to look!"
+                        },
+                        {
+                            "text": "Below is a video of an example trial. In addition to the different numbers of shapes and sounds, we will also show your baby cartoons and music in between trials to attract their attention back to the screen. <strong>Please make sure your baby does not get any spoilers if you decide to preview the study!</strong>"
+                        }
+                    ],
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
+                                "type": "video/mp4",
+                                "width": 30
+                            }
+                        ],
+                        "mustPlay": false
+                    }
+                },
+                {
+                    "title": "Next steps",
+                    "listblocks": [
+                        {
+                            "text": "First, we will make sure that your webcam is setup for the study."
+                        },
+                        {
+                            "text": "Next, you'll have a chance to review the consent information, and we'll ask you to record a short video of yourself giving consent to participate in this study."
+                        },
+                        {
+                            "text": "Finally, you'll be given some more detailed instructions about what to do during the experiment, and then we'll start!"
+                        },
+                        {
+                            "text": "During the study, if you'd like a short break, please press the Spacebar. If you'd like to stop the study completely, it’s ok to leave early by pressing ctrl-X or closing the tab."
+                        }
+                    ]
+                }
+            ],
+            "showWebcam": false,
+            "nextButtonText": "I'm ready to set up my webcam!"
+        },
+        "instructions-setup-highchair": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "setup",
+                    "src": "Setup.jpg",
+                    "position": "fill"
+                }
+            ],
+            "audio": "setupbaby",
+            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+            "pageColor": "white",
+            "audioTypes": [
+                "mp3"
+            ],
+            "parentTextBlock": {
+                "text": "During the study, we will ask you to please seat your baby in a high chair or stroller facing the screen. The computer screen should be roughly at an adult's arm's length from your baby.",
+                "title": "Make sure you also hear it:"
+            },
+            "autoProceed": false,
+            "maximizeDisplay": false,
+            "doRecording": false
+        },
+        "instructions-setup-laps": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "laps",
+                    "src": "Laps.jpg",
+                    "position": "fill"
+                }
+            ],
+            "audio": "setupbabylap",
+            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+            "pageColor": "white",
+            "audioTypes": [
+                "mp3"
+            ],
+            "parentTextBlock": {
+                "text": "During the study, we will ask you to please <strong>seat your baby on your laps</strong>. The computer screen should be roughly at your arm's length from your baby.",
+                "title": "Make sure you also hear it:"
+            },
+            "autoProceed": false,
+            "maximizeDisplay": false,
+            "doRecording": false
+        },
+        "instructions-webcam": {
+            "kind": "exp-lookit-webcam-display",
+            "blocks": [
+                {
+                    "title": "It's time to get your baby and check the webcam setup!",
+                    "listblocks": [
+                        {
+                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
+                        },
+                        {
+                            "image": {
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/img/lighting.jpg",
+                                "position": "center"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "My baby and I are in position & ready to start!",
+            "showPreviousButton": true,
+            "displayFullscreenOverride": true,
+            "startRecordingAutomatically": false
+        },
+        "start-experiment": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "ready",
+                    "src": "numbers.jpg",
+                    "position": "fill"
+                }
+            ],
+            "audio": "study-begin",
+            "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
+            "pageColor": "gray",
+            "audioTypes": [
+                "mp3"
+            ],
+            "parentTextBlock": {
+                "Text": "Feel free to close your eyes in the study so that your reaction does not influence your baby. ",
+                "title": "Please try your best to ignore what's going on. Feel free to close your eyes and relax!"
+            },
+            "autoProceed": true,
+            "maximizeDisplay": true,
+            "doRecording": true
+        }
+    },
+    "sequence": [
+        "instructions-1",
+        "video-config",
+        "video-consent",
+        "instructions-setup-laps",
+        "instructions-webcam",
+        "start-experiment",
+        "test-trials",
+        "exit-survey"
+    ]
+}
