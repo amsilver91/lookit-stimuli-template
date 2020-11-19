@@ -12,52 +12,24 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
-                    "kind": "exp-lookit-calibration"
-                },
-                {
                     "video": {
-                        "source": "VIDEO1",
+                        "source": "flowers",
                         "loop": true,
                         "position": "fill"
-                    }
-                },
-                {
-                    "kind": "exp-lookit-calibration"
-                },
-                {
-                    "video": {
-                        "source": "VIDEO2",
-                        "loop": true,
-                        "position": "fill"
-                    }
-                },
-                {
-                    "video": {
-                        "source": "maruko 7s",
-                        "width": 30,
-                        "left": 35,
-                        "top": 25
                     },
-                    "requiredDuration": 8,
-                    "doRecording": false
-                },
-                {
-                    "kind": "exp-lookit-calibration"
+                    "requiredDuration": 10
                 },
                 {
                     "video": {
-                        "source": "VIDEO3",
-                        "loop": true,
+                        "source": "VIDEO01",
+                        "loop": false,
                         "position": "fill"
                     }
                 },
                 {
-                    "kind": "exp-lookit-calibration"
-                },
-                {
                     "video": {
-                        "source": "VIDEO4",
-                        "loop": true,
+                        "source": "VIDEO02",
+                        "loop": false,
                         "position": "fill"
                     }
                 },
@@ -73,16 +45,17 @@
                         "source": "Youarealldone",
                         "loop": false
                     },
-                    "requireAudioCount": 1,
-                    "doRecording": false
+                    "requireAudioCount": 1
                 }
             ],
             "parameterSets": [
                 {
+                    "VIDEO1": "count_pig_4",
+                    "VIDEO2": "test-5-10-less"
+                },
+                {
                     "VIDEO1": "count_pig_2",
-                    "VIDEO2": "count_pig_4",
-                    "VIDEO3": "count_pig_2",
-                    "VIDEO4": "count_pig_4"
+                    "VIDEO2": "test-5-10-more"
                 }
             ],
             "commonFrameProperties": {
@@ -91,15 +64,11 @@
                     "mp3"
                 ],
                 "videoTypes": [
-                    "ogg"
+                    "mp4"
                 ],
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "doRecording": true,
-                "showWaitForRecordingMessage": true,
-                "showWaitForUploadImage": true,
-                "waitForRecordingMessage": "",
-                "waitForUploadMessage": "",
-                "waitForUploadImage": "seenumbers.png",
+                "waitForRecordingMessage": "<img src='http: //sites.sas.rutgers.edu/cognition/images/logotext.png' height=30% /img>",
                 "backgroundColor": "white",
                 "autoProceed": true,
                 "restartAfterPause": true,
