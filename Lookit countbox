@@ -16,19 +16,18 @@
                         "source": "flowers",
                         "loop": true,
                         "position": "fill"
-                    },
-                    "requiredDuration": 10
+                    }
                 },
                 {
                     "video": {
-                        "source": "VIDEO01",
+                        "source": "VIDEO1",
                         "loop": false,
                         "position": "fill"
                     }
                 },
                 {
                     "video": {
-                        "source": "VIDEO02",
+                        "source": "VIDEO2",
                         "loop": false,
                         "position": "fill"
                     }
@@ -50,11 +49,11 @@
             ],
             "parameterSets": [
                 {
-                    "VIDEO1": "count_pig_4",
+                    "VIDEO1": "this_car_2",
                     "VIDEO2": "test-5-10-less"
                 },
                 {
-                    "VIDEO1": "count_pig_2",
+                    "VIDEO1": "this_car_2",
                     "VIDEO2": "test-5-10-more"
                 }
             ],
@@ -69,7 +68,7 @@
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "doRecording": true,
                 "waitForRecordingMessage": "<img src='http: //sites.sas.rutgers.edu/cognition/images/logotext.png' height=30% /img>",
-                "backgroundColor": "white",
+                "backgroundColor": "gray",
                 "autoProceed": true,
                 "restartAfterPause": true,
                 "pauseKey": " ",
@@ -86,8 +85,7 @@
                     "center"
                 ],
                 "calibrationLength": 2000,
-                "requiredDuration": 0,
-                "requireVideoCount": 0,
+                "requireVideoCount": 1,
                 "requireAudioCount": 0
             }
         },
@@ -140,7 +138,7 @@
                         "isVideo": true,
                         "sources": [
                             {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/demoANS.mp4",
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/this_car_2.mp4",
                                 "type": "video/mp4",
                                 "width": 30
                             }
@@ -264,11 +262,6 @@
     },
     "sequence": [
         "instructions-1",
-        "video-config",
-        "video-consent",
-        "instructions-setup-laps",
-        "instructions-webcam",
-        "start-experiment",
         "test-trials",
         "exit-survey"
     ]
