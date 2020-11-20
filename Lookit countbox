@@ -13,7 +13,7 @@
             "frameList": [
                 {
                     "video": {
-                        "source": "fam_frog",
+                        "source": "fam_frog_1",
                         "loop": false,
                         "position": "fill"
                     }
@@ -97,10 +97,8 @@
                 ],
                 "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
                 "doRecording": true,
-                "backgroundColor": "gray",
-                "showWaitForRecordingMessage": true,
-                "waitForRecordingMessage": "",
-                "waitForRecordingMessageColor": "gray",
+                "backgroundColor": "#626362",
+                "showWaitForRecordingMessage": false,
                 "autoProceed": true,
                 "restartAfterPause": true,
                 "pauseKey": " ",
@@ -294,6 +292,11 @@
     },
     "sequence": [
         "instructions-1",
+        "video-config",
+        "video-consent",
+        "instructions-setup-laps",
+        "instructions-webcam",
+        "start-experiment",
         "test-trials",
         "exit-survey"
     ]
