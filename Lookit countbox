@@ -27,13 +27,6 @@
                 },
                 {
                     "video": {
-                        "source": "attractor_count",
-                        "loop": false,
-                        "position": "fill"
-                    }
-                },
-                {
-                    "video": {
                         "source": "VIDEO1",
                         "loop": false,
                         "position": "fill"
