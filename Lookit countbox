@@ -13,7 +13,21 @@
             "frameList": [
                 {
                     "video": {
+                        "source": "calibration",
+                        "loop": false,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
                         "source": "fam_frog_1",
+                        "loop": false,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "source": "attractor_count",
                         "loop": false,
                         "position": "fill"
                     }
@@ -28,6 +42,13 @@
                 {
                     "video": {
                         "source": "VIDEO2",
+                        "loop": false,
+                        "position": "fill"
+                    }
+                },
+                {
+                    "video": {
+                        "source": "attractor_count",
                         "loop": false,
                         "position": "fill"
                     }
@@ -168,7 +189,7 @@
                         "isVideo": true,
                         "sources": [
                             {
-                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/this_car_2.mp4",
+                                "src": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/mp4/countbox_demo.mp4",
                                 "type": "video/mp4",
                                 "width": 30
                             }
