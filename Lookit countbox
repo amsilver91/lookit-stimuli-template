@@ -3,7 +3,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "In this study, we are interested in what babies recognize as counting before they start to count by themselves. We study this ability by measuring where babies look. For example, <a href='https://sites.sas.rutgers.edu/cognition/press.html#press' rel='noreferrer noopener external nofollow' target='_blank'>previous studies</a> showed that babies as young as 14 months remember more toys after watching the toys being counted, versus not being counted. This tells us that even before babies are able to count by themselves, they may already have a sense of what counting means. \n\n The current study asks what about counting is helping babies remember more. When replacing the familiar count words one, two, three with other words, such as this, this, this or A, B, C, do babies still recognize the activity as counting ? We try to answer this question by giving babies different numbers of toys to remember, paired with different versions of counting.\n\n This research would not be possible without awesome parents like you.Thank you again for your participation!",
+                "text": "Counting is hard: it usually takes children many years to understand how counting works. In this study, we are interested in what babies recognize as counting before they start to count by themselves. We study this ability by measuring where babies look. For example, previous studies showed that babies as young as 14 months remember more toys after watching the toys being counted, versus not being counted. This tells us that even before babies are able to count by themselves, they may already have a sense of what counting means.\n\nThe current study asks what about counting is helping babies remember more. When replacing the familiar count words one, two, three with other words, such as this, this, this or A, B, C, do babies still recognize the activity as counting ? We try to answer this question by giving babies different numbers of toys to remember, paired with different versions of counting. For example, in some parts of the study, we showed your baby four toys going behind a box, but when we lifted up the box, only two were left behind. We are interested in whether babies find this quantity change more surprising when we count the toys (“one, two, three, four”) instead of just pointing to them without counting (“this, this, this, this”). We measure this by seeing how long babies look - we know that babies tend to look longer at things they find surprising.\n\nIf babies are more likely to be surprised at the quantity change after watching us counting the toys, it would mean that babies can link counting with quantity, even long before they can count by themselves! This tells us that counting with babies may have an earlier impact on babies than we used to think, and showing babies the critical elements of counting (such as pointing and labeling) may help them better grasp the abstract and difficult concepts of counting.\n\nThis research would not be possible without awesome parents like you.Thank you again for your participation! Please tell your friends about your experience. We are always looking for new little scientists to join our community!",
                 "title": "What was this study about?"
             }
         },
@@ -64,14 +64,13 @@
                     "video": {
                         "source": "Youarealldone",
                         "loop": true,
-                        "width": 50,
-                        "top": 20,
-                        "left": 25
+                        "position": "fill"
                     },
                     "audio": {
                         "source": "Youarealldone",
                         "loop": false
                     },
+                    "backgroundColor": "white",
                     "requireAudioCount": 1
                 }
             ],
@@ -220,7 +219,7 @@
                     "position": "fill"
                 }
             ],
-            "audio": "setupbaby",
+            "audio": "setupbabyhighchair",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
             "audioTypes": [
@@ -264,7 +263,10 @@
                     "title": "It's time to get your baby and check the webcam setup!",
                     "listblocks": [
                         {
-                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow. The webcam should be <strong>centered</strong> relative to the screen."
+                            "text": "Get comfy, take a look above, and make sure your baby's eyes are <strong>clearly visible</strong> and not covered in shadow."
+                        },
+                        {
+                            "text": "The webcam should be <strong>centered</strong> relative to the screen."
                         },
                         {
                             "image": {
@@ -285,19 +287,19 @@
             "images": [
                 {
                     "id": "ready",
-                    "src": "numbers.jpg",
+                    "src": "lighting.jpg",
                     "position": "fill"
                 }
             ],
             "audio": "study-begin",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
-            "pageColor": "gray",
+            "pageColor": "white",
             "audioTypes": [
                 "mp3"
             ],
             "parentTextBlock": {
                 "Text": "Feel free to close your eyes in the study so that your reaction does not influence your baby. ",
-                "title": "Please try your best to ignore what's going on. Feel free to close your eyes and relax!"
+                "title": "The videos will take roughly 5 minutes. Feel free to close your eyes and relax! "
             },
             "autoProceed": true,
             "maximizeDisplay": true,
@@ -308,7 +310,7 @@
         "instructions-1",
         "video-config",
         "video-consent",
-        "instructions-setup-laps",
+        "instructions-setup-highchair",
         "instructions-webcam",
         "start-experiment",
         "test-trials",
