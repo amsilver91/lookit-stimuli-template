@@ -291,15 +291,15 @@
                     "position": "fill"
                 }
             ],
-            "audio": "study-begin",
+            "audio": "study-begin-highchair",
             "baseDir": "https://raw.githubusercontent.com/jinjingjennywang/lookit-stimuli-template/master/",
             "pageColor": "white",
             "audioTypes": [
                 "mp3"
             ],
             "parentTextBlock": {
-                "Text": "Feel free to close your eyes in the study so that your reaction does not influence your baby. ",
-                "title": "The videos will take roughly 5 minutes. Feel free to close your eyes and relax! "
+                "Text": "Feel free to ignore the videos so that your reaction does not influence your baby. ",
+                "title": "The videos will take roughly 5 minutes. Feel free to look away and relax! "
             },
             "autoProceed": true,
             "maximizeDisplay": true,
